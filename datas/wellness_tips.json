@@ -1,0 +1,62 @@
+[
+  {
+    "id": "wt_001",
+    "title": "Improve Sleep Quality",
+    "content": "Try establishing a bedtime routine: dim lights 1 hour before sleep, avoid screens, keep your room cool (65-68\u00b0F), and consider relaxation exercises.",
+    "tags": [
+      "sleep",
+      "rest",
+      "insomnia",
+      "wellness"
+    ],
+    "health_goals": [
+      "improve_sleep",
+      "reduce_stress"
+    ]
+  },
+  {
+    "id": "wt_002",
+    "title": "Heart-Healthy Eating",
+    "content": "Incorporate more omega-3 fatty acids (salmon, walnuts), reduce sodium intake, eat plenty of fruits and vegetables, and choose whole grains over refined carbs.",
+    "tags": [
+      "nutrition",
+      "heart health",
+      "diet",
+      "wellness"
+    ],
+    "health_goals": [
+      "heart_health",
+      "weight_management"
+    ]
+  },
+  {
+    "id": "wt_003",
+    "title": "Stress Reduction Technique",
+    "content": "Practice the 4-7-8 breathing technique: Inhale for 4 counts, hold for 7 counts, exhale for 8 counts. Repeat 3-4 times to activate your relaxation response.",
+    "tags": [
+      "stress",
+      "breathing",
+      "mindfulness",
+      "mental health"
+    ],
+    "health_goals": [
+      "reduce_stress",
+      "improve_mental_health"
+    ]
+  },
+  {
+    "id": "wt_004",
+    "title": "Daily Hydration",
+    "content": "Aim for 8-10 glasses of water daily. Start your morning with a glass of water, keep a water bottle nearby, and set hourly reminders if needed.",
+    "tags": [
+      "hydration",
+      "water",
+      "wellness",
+      "health"
+    ],
+    "health_goals": [
+      "general_wellness",
+      "energy_boost"
+    ]
+  }
+]

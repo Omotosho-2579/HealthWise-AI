@@ -1,0 +1,22 @@
+{
+  "Hypertension": "High blood pressure",
+  "Myocardial infarction": "Heart attack",
+  "Cerebrovascular accident": "Stroke",
+  "Diabetes mellitus": "Diabetes (high blood sugar condition)",
+  "Hyperlipidemia": "High cholesterol",
+  "Gastroesophageal reflux disease": "Acid reflux or heartburn",
+  "Osteoarthritis": "Joint inflammation due to wear and tear",
+  "Pneumonia": "Lung infection",
+  "Bronchitis": "Inflammation of breathing tubes",
+  "Anemia": "Low red blood cell count",
+  "Tachycardia": "Fast heart rate",
+  "Bradycardia": "Slow heart rate",
+  "Edema": "Swelling from fluid buildup",
+  "Dyspnea": "Difficulty breathing or shortness of breath",
+  "Nausea": "Feeling of wanting to vomit",
+  "Pruritus": "Itching",
+  "Vertigo": "Feeling of spinning or dizziness",
+  "Insomnia": "Difficulty falling or staying asleep",
+  "Hyponatremia": "Low sodium levels in blood",
+  "Hyperglycemia": "High blood sugar"
+}

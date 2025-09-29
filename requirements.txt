@@ -1,0 +1,9 @@
+streamlit==1.22.0
+pandas
+scikit-learn==1.6.1
+spacy==3.6.1
+pytesseract==0.3.10
+Pillow
+faiss-cpu==1.7.4
+joblib
+numpy<2

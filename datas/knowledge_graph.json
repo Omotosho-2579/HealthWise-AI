@@ -1,0 +1,66 @@
+[
+  {
+    "id": "kg_001",
+    "topic": "Headache",
+    "content": "Headaches can be caused by tension, dehydration, eye strain, or underlying conditions. Rest, hydration, and over-the-counter pain relievers may help. Seek medical attention for severe or persistent headaches.",
+    "keywords": [
+      "headache",
+      "pain",
+      "head",
+      "migraine",
+      "tension"
+    ],
+    "category": "symptom"
+  },
+  {
+    "id": "kg_002",
+    "topic": "Metformin",
+    "content": "Metformin is a medication used to treat type 2 diabetes. It helps control blood sugar levels by improving insulin sensitivity. Common side effects include nausea and digestive issues.",
+    "keywords": [
+      "metformin",
+      "diabetes",
+      "blood sugar",
+      "medication"
+    ],
+    "category": "medication"
+  },
+  {
+    "id": "kg_003",
+    "topic": "Sleep Hygiene",
+    "content": "Good sleep hygiene includes maintaining a consistent sleep schedule, creating a comfortable sleep environment, avoiding screens before bed, and limiting caffeine intake in the afternoon.",
+    "keywords": [
+      "sleep",
+      "insomnia",
+      "rest",
+      "bedtime",
+      "hygiene"
+    ],
+    "category": "wellness"
+  },
+  {
+    "id": "kg_004",
+    "topic": "Anxiety Management",
+    "content": "Managing anxiety involves deep breathing exercises, regular physical activity, mindfulness practices, and sometimes professional therapy. It's important to identify triggers and develop coping strategies.",
+    "keywords": [
+      "anxiety",
+      "stress",
+      "mental health",
+      "worry",
+      "panic"
+    ],
+    "category": "mental_health"
+  },
+  {
+    "id": "kg_005",
+    "topic": "Fever",
+    "content": "A fever is a temporary increase in body temperature, often due to infection. Rest, fluids, and fever-reducing medications can help. Seek medical care if fever exceeds 103\u00b0F or persists for more than 3 days.",
+    "keywords": [
+      "fever",
+      "temperature",
+      "infection",
+      "hot",
+      "chills"
+    ],
+    "category": "symptom"
+  }
+]
