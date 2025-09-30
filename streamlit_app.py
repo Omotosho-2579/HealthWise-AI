@@ -268,7 +268,7 @@ def main():
         # Clear chat button
         if st.button("🗑️ Clear Chat History"):
             st.session_state.chat_history = []
-            st.rerun()
+            st.experimental_rerun()
     
     # Main content area based on selected feature
     if feature == "💬 AI Chat Assistant":
@@ -327,7 +327,7 @@ def render_chat_interface(models: dict):
             if result['entities']['symptoms']:
                 st.write(f"**Symptoms Found:** {', '.join(result['entities']['symptoms'])}")
         
-        st.rerun()
+        st.experimental_rerun()
     
     # Quick action buttons
     st.markdown("### 💡 Quick Questions")
@@ -336,17 +336,17 @@ def render_chat_interface(models: dict):
     with col1:
         if st.button("Sleep tips 😴"):
             st.session_state.chat_history.append({'role': 'user', 'content': 'How can I improve my sleep?'})
-            st.rerun()
+            st.experimental_rerun()
     
     with col2:
         if st.button("Stress relief 🧘"):
             st.session_state.chat_history.append({'role': 'user', 'content': 'How can I reduce stress?'})
-            st.rerun()
+            st.experimental_rerun()
     
     with col3:
         if st.button("Healthy eating 🥗"):
             st.session_state.chat_history.append({'role': 'user', 'content': 'Tips for healthy eating?'})
-            st.rerun()
+            st.experimental_rerun()
 
 
 def render_recommendations(models: dict):
@@ -366,7 +366,7 @@ def render_recommendations(models: dict):
     
     # Refresh button
     if st.button("🔄 Get Another Recommendation"):
-        st.rerun()
+        st.experimental_rerun()
     
     st.markdown("---")
     
