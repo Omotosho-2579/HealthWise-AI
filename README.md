@@ -1,4 +1,3 @@
-"""
 # 🏥 HealthWise AI - Intelligent Health Companion
 
 A production-ready AI/ML-powered healthcare chatbot built with Python and Streamlit.
@@ -44,4 +43,4 @@ healthwise-ai/
     ├── data_utils.py
     ├── recommender.py
     └── report_processor.py
-```
+
