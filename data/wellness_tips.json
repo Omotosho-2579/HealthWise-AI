@@ -1,62 +1,212 @@
 [
   {
     "id": "wt_001",
-    "title": "Improve Sleep Quality",
-    "content": "Try establishing a bedtime routine: dim lights 1 hour before sleep, avoid screens, keep your room cool (65-68\u00b0F), and consider relaxation exercises.",
-    "tags": [
-      "sleep",
-      "rest",
-      "insomnia",
-      "wellness"
-    ],
-    "health_goals": [
-      "improve_sleep",
-      "reduce_stress"
-    ]
+    "title": "Optimize Your Sleep Environment",
+    "content": "Transform your bedroom into a sleep sanctuary: Keep room temperature between 65-68°F (18-20°C), use blackout curtains or eye mask to block all light, minimize noise with earpurposes or white noise machine, invest in comfortable mattress and pillows (replace every 7-10 years), remove electronic devices or use blue light filters, keep bedroom clutter-free for mental calm, use calming scents like lavender, reserve bed only for sleep and intimacy to strengthen sleep association.",
+    "tags": ["sleep", "bedroom", "sleep quality", "insomnia", "rest", "sleep environment"],
+    "health_goals": ["improve_sleep", "reduce_stress", "general_wellness"]
   },
   {
     "id": "wt_002",
-    "title": "Heart-Healthy Eating",
-    "content": "Incorporate more omega-3 fatty acids (salmon, walnuts), reduce sodium intake, eat plenty of fruits and vegetables, and choose whole grains over refined carbs.",
-    "tags": [
-      "nutrition",
-      "heart health",
-      "diet",
-      "wellness"
-    ],
-    "health_goals": [
-      "heart_health",
-      "weight_management"
-    ]
+    "title": "Master the 4-7-8 Breathing Technique",
+    "content": "This powerful relaxation method activates your parasympathetic nervous system: Place tongue tip against ridge behind upper teeth, exhale completely through mouth making whoosh sound, close mouth and inhale quietly through nose for 4 counts, hold breath for 7 counts, exhale completely through mouth for 8 counts making whoosh sound. This is one cycle. Repeat 3-4 times. Practice twice daily. Especially effective before bed, during anxiety, or when you need instant calm. The longer exhale triggers relaxation response.",
+    "tags": ["breathing", "stress relief", "anxiety", "relaxation", "mindfulness", "calm"],
+    "health_goals": ["reduce_stress", "improve_mental_health", "improve_sleep", "anxiety_management"]
   },
   {
     "id": "wt_003",
-    "title": "Stress Reduction Technique",
-    "content": "Practice the 4-7-8 breathing technique: Inhale for 4 counts, hold for 7 counts, exhale for 8 counts. Repeat 3-4 times to activate your relaxation response.",
-    "tags": [
-      "stress",
-      "breathing",
-      "mindfulness",
-      "mental health"
-    ],
-    "health_goals": [
-      "reduce_stress",
-      "improve_mental_health"
-    ]
+    "title": "Build a Heart-Healthy Plate",
+    "content": "Follow the Mediterranean diet pattern proven to reduce heart disease: Fill half your plate with colorful vegetables (leafy greens, peppers, tomatoes, broccoli), quarter with whole grains (brown rice, quinoa, whole wheat pasta, oats), quarter with lean protein (fatty fish twice weekly, poultry, legumes, nuts), add healthy fats (olive oil as primary fat, avocados, nuts, seeds), include daily servings of berries and other fruits. Limit red meat to once weekly, minimize processed foods, season with herbs and spices instead of salt. This pattern reduces cardiovascular disease risk by up to 30%.",
+    "tags": ["heart health", "nutrition", "diet", "cardiovascular", "healthy eating", "Mediterranean diet"],
+    "health_goals": ["heart_health", "weight_management", "general_wellness", "cholesterol_control"]
   },
   {
     "id": "wt_004",
-    "title": "Daily Hydration",
-    "content": "Aim for 8-10 glasses of water daily. Start your morning with a glass of water, keep a water bottle nearby, and set hourly reminders if needed.",
-    "tags": [
-      "hydration",
-      "water",
-      "wellness",
-      "health"
-    ],
-    "health_goals": [
-      "general_wellness",
-      "energy_boost"
-    ]
+    "title": "Practice Mindful Eating",
+    "content": "Transform your relationship with food through mindfulness: Eat without distractions (no TV, phone, or computer), take time to appreciate food appearance and aroma before eating, chew each bite 20-30 times, put utensils down between bites, notice flavors, textures, and sensations, check in with hunger and fullness cues throughout meal, eat until 80% full, take 20 minutes minimum per meal (satiety signals take time). Benefits: better digestion, natural portion control, greater satisfaction, reduced overeating, improved food choices, enhanced enjoyment.",
+    "tags": ["mindfulness", "eating habits", "nutrition", "weight management", "digestion", "awareness"],
+    "health_goals": ["weight_management", "general_wellness", "improve_mental_health", "digestive_health"]
+  },
+  {
+    "id": "wt_005",
+    "title": "Start a Morning Hydration Ritual",
+    "content": "Begin each day by rehydrating your body: Drink 16-24 ounces of water within 30 minutes of waking (before coffee or breakfast), add lemon slice for vitamin C and enhanced flavor, drink at room temperature or warm for easier absorption, wait 20-30 minutes before eating for optimal benefit. This practice jumpstarts metabolism, flushes toxins accumulated overnight, rehydrates cells, boosts alertness, supports digestion, improves skin health. Keep water by bedside to make this habit automatic. Track morning hydration for 21 days to establish habit.",
+    "tags": ["hydration", "water", "morning routine", "energy", "metabolism", "wellness habits"],
+    "health_goals": ["general_wellness", "energy_boost", "weight_management", "skin_health"]
+  },
+  {
+    "id": "wt_006",
+    "title": "Implement the 20-20-20 Rule for Eye Health",
+    "content": "Protect your eyes from digital strain: Every 20 minutes, look at something 20 feet away for at least 20 seconds. Set timer or use app reminders. Additional eye care: blink frequently (most people blink less when using screens), position screen 20-26 inches from eyes, slightly below eye level, adjust brightness to match surroundings, use blue light filter after sunset, ensure adequate lighting (avoid glare), maintain proper posture, consider computer glasses if needed. Regular breaks reduce eye strain, headaches, dry eyes, and long-term vision problems.",
+    "tags": ["eye health", "digital wellness", "screen time", "vision", "eye strain", "computer use"],
+    "health_goals": ["general_wellness", "prevent_health_issues", "work_wellness"]
+  },
+  {
+    "id": "wt_007",
+    "title": "Create a Stress-Relief Tool Kit",
+    "content": "Build your personalized stress management arsenal: Physical tools (stress ball, fidget toy, resistance band for quick exercises), sensory items (essential oils like lavender or peppermint, calming music playlist, favorite tea), mental tools (list of affirmations, gratitude journal, inspirational quotes), activity options (5-minute meditation app, quick walk route, breathing exercise guide), support resources (trusted friend's contact, therapist's number, crisis hotline). Keep items accessible at work and home. When stressed, choose one tool and use it for 5 minutes before reacting.",
+    "tags": ["stress management", "coping skills", "mental health", "self-care", "wellness tools", "anxiety relief"],
+    "health_goals": ["reduce_stress", "improve_mental_health", "anxiety_management", "general_wellness"]
+  },
+  {
+    "id": "wt_008",
+    "title": "Practice Gratitude Journaling",
+    "content": "Harness the mental health benefits of gratitude: Each evening, write down 3 specific things you're grateful for, include why each matters and how it made you feel, vary your entries (don't repeat same items daily), be specific rather than general, focus on people more than things, savor unexpected or surprising moments. Scientific benefits: improved mood, better sleep quality, reduced depression and anxiety, enhanced relationships, increased resilience, greater life satisfaction. Start small with 5 minutes nightly. After 30 days, gratitude becomes automatic mindset.",
+    "tags": ["gratitude", "mental health", "journaling", "positive thinking", "mindfulness", "happiness"],
+    "health_goals": ["improve_mental_health", "reduce_stress", "improve_sleep", "general_wellness"]
+  },
+  {
+    "id": "wt_009",
+    "title": "Master Portion Control Without Measuring",
+    "content": "Use your hand as a portion guide: Palm = protein serving (3-4 oz meat, fish, poultry), Fist = carbohydrate serving (1 cup grains, pasta, fruits), Cupped hand = healthy fats (1-2 oz nuts, oils), Thumb = high-calorie foods (cheese, nut butter, oils), Two hands cupped = vegetables (aim for this at each meal). Women: 1 palm protein, 1 fist carbs, 1 thumb fats, 2 handfuls vegetables per meal. Men: 2 palms protein, 2 fists carbs, 2 thumbs fats, 2 handfuls vegetables per meal. Adjust based on activity level and goals. This intuitive method travels anywhere.",
+    "tags": ["portion control", "weight management", "nutrition", "healthy eating", "diet tips"],
+    "health_goals": ["weight_management", "general_wellness", "healthy_eating"]
+  },
+  {
+    "id": "wt_010",
+    "title": "Build a Consistent Sleep Schedule",
+    "content": "Regulate your circadian rhythm: Go to bed and wake up at the same time every day (including weekends - no more than 1 hour difference), calculate backwards from wake time to ensure 7-9 hours, establish 60-minute wind-down routine before bed, dim lights 2 hours before bedtime, avoid naps after 3 PM (or limit to 20 minutes), get morning sunlight exposure within 1 hour of waking (regulates melatonin), avoid caffeine after 2 PM. Consistency is more important than amount. Your body will naturally adjust to schedule within 2-3 weeks, resulting in easier wake-ups and better quality sleep.",
+    "tags": ["sleep schedule", "circadian rhythm", "sleep hygiene", "consistent routine", "better sleep"],
+    "health_goals": ["improve_sleep", "general_wellness", "energy_boost"]
+  },
+  {
+    "id": "wt_011",
+    "title": "Start Strength Training for Bone Health",
+    "content": "Build stronger bones and muscles: Start with 2 sessions weekly, 30 minutes each, targeting all major muscle groups (legs, hips, back, chest, arms, shoulders), use your body weight, resistance bands, or free weights, perform 8-12 repetitions per exercise for 2-3 sets, allow 48 hours rest between sessions for same muscle groups. Benefits: increased bone density (reduces osteoporosis risk), improved metabolism (muscle burns more calories at rest), better balance and coordination, reduced injury risk, enhanced functional fitness, improved body composition. Start with lighter weights, focus on proper form over heavy loads. Progress gradually. Combine with weight-bearing cardio for maximum bone health.",
+    "tags": ["strength training", "bone health", "exercise", "fitness", "muscle building", "osteoporosis prevention"],
+    "health_goals": ["general_wellness", "bone_health", "weight_management", "prevent_health_issues"]
+  },
+  {
+    "id": "wt_012",
+    "title": "Reduce Inflammation Through Diet",
+    "content": "Fight chronic inflammation with anti-inflammatory foods: Emphasize: fatty fish (salmon, sardines, mackerel) 2-3 times weekly, colorful fruits and vegetables (berries, leafy greens, tomatoes), nuts and seeds (walnuts, almonds, flaxseeds), olive oil as primary fat, whole grains, green tea, dark chocolate (70%+ cacao), turmeric and ginger, legumes. Minimize: processed foods, refined carbohydrates, sugar-sweetened beverages, excessive red meat, trans fats, excessive alcohol. Benefits: reduced disease risk (heart disease, cancer, diabetes, Alzheimer's), better joint health, improved mood, enhanced immune function, healthier aging. Combine with regular exercise, stress management, adequate sleep for comprehensive anti-inflammatory lifestyle.",
+    "tags": ["inflammation", "anti-inflammatory diet", "nutrition", "disease prevention", "healthy eating", "wellness"],
+    "health_goals": ["general_wellness", "heart_health", "reduce_pain", "prevent_health_issues"]
+  },
+  {
+    "id": "wt_013",
+    "title": "Practice Progressive Muscle Relaxation",
+    "content": "Release physical tension systematically: Find quiet space, sit or lie comfortably, take 3 deep breaths. Starting with feet, tense muscle group for 5 seconds (squeeze tightly but don't strain), then release and relax for 10 seconds, notice difference between tension and relaxation, move upward: calves, thighs, buttocks, stomach, chest, arms, hands, neck, face. Spend 1-2 minutes on each area. Total time: 15-20 minutes. Practice daily for best results. Benefits: reduced anxiety, better sleep, lower blood pressure, decreased muscle tension, headache relief, improved stress management. Especially effective before bed or during high-stress periods.",
+    "tags": ["relaxation", "muscle tension", "stress relief", "anxiety", "sleep aid", "mindfulness"],
+    "health_goals": ["reduce_stress", "improve_sleep", "anxiety_management", "improve_mental_health"]
+  },
+  {
+    "id": "wt_014",
+    "title": "Meal Prep for Healthy Week",
+    "content": "Set yourself up for nutrition success: Choose one day weekly (Sunday works for most), plan 3-5 meals, grocery shop with list, batch cook proteins (grill chicken, bake fish, cook beans), prepare grains in bulk (brown rice, quinoa), chop vegetables for quick use, portion into containers, include variety to prevent boredom. Simple combinations: protein + grain + 2 vegetables + healthy fat. Store: refrigerate 3-4 days' meals, freeze remainder. Benefits: saves time during busy weekdays, reduces unhealthy choices when tired, controls portions, saves money, reduces food waste, decreases stress. Start with 2-3 meals weekly if full week feels overwhelming.",
+    "tags": ["meal prep", "nutrition", "healthy eating", "time management", "planning", "cooking"],
+    "health_goals": ["weight_management", "healthy_eating", "general_wellness", "time_efficiency"]
+  },
+  {
+    "id": "wt_015",
+    "title": "Incorporate Walking Meetings",
+    "content": "Combine productivity with movement: For one-on-one meetings or phone calls, walk instead of sitting, choose route away from traffic for easier conversation, walk at comfortable pace allowing for talking, use earbuds for phone meetings, bring notepad or use voice memos for ideas, schedule 5 minutes longer than sitting meeting to account for prep. Benefits: 30-60 minutes daily activity accumulated naturally, improved creativity and problem-solving (studies show walking boosts creative thinking by 60%), better energy and focus, reduced sitting time, fresh air and nature exposure, relationship building through side-by-side activity. Many report more productive, engaged conversations while walking.",
+    "tags": ["physical activity", "workplace wellness", "walking", "productivity", "movement", "active lifestyle"],
+    "health_goals": ["general_wellness", "weight_management", "energy_boost", "work_wellness"]
+  },
+  {
+    "id": "wt_016",
+    "title": "Optimize Gut Health with Probiotics",
+    "content": "Support your microbiome naturally: Include probiotic-rich foods: yogurt with live cultures (look for Lactobacillus and Bifidobacterium strains), kefir (more diverse than yogurt), sauerkraut (unpasteurized), kimchi, kombucha, miso, tempeh. Aim for 1-2 servings daily. Also consume prebiotic fiber to feed good bacteria: bananas, onions, garlic, leeks, asparagus, whole grains, legumes. Benefits: improved digestion, stronger immune system (70% of immune cells in gut), better mood (gut-brain connection), reduced inflammation, enhanced nutrient absorption, weight management support. Combine with varied, plant-rich diet for optimal gut diversity. Consider probiotic supplement if diet insufficient (consult healthcare provider).",
+    "tags": ["gut health", "probiotics", "digestion", "immune system", "fermented foods", "microbiome"],
+    "health_goals": ["digestive_health", "immune_support", "general_wellness", "improve_mental_health"]
+  },
+  {
+    "id": "wt_017",
+    "title": "Practice Digital Detox Hours",
+    "content": "Reclaim mental space from technology: Designate daily tech-free time (start with 1-2 hours before bed), put all devices in another room, inform others of unavailability, engage in analog activities: read physical books, practice hobbies, have face-to-face conversations, take walks, journal, cook, play games, do puzzles. Weekly: consider full digital sabbath (24 hours without screens). Benefits: improved sleep quality, reduced anxiety and stress, better relationships, enhanced presence and mindfulness, increased creativity, improved posture and eye health. Start small (even 30 minutes helps). Use time to reconnect with yourself and loved ones.",
+    "tags": ["digital detox", "screen time", "mental health", "mindfulness", "technology balance", "wellness"],
+    "health_goals": ["improve_mental_health", "reduce_stress", "improve_sleep", "general_wellness"]
+  },
+  {
+    "id": "wt_018",
+    "title": "Maintain Social Connections",
+    "content": "Nurture relationships for longevity and happiness: Schedule regular check-ins with friends and family (weekly or bi-weekly), prioritize quality over quantity (deep connections more valuable than many shallow ones), join groups aligned with interests (book clubs, sports teams, volunteering), have meals together regularly, practice active listening, offer and ask for support, maintain connections through life changes, limit social media for in-person interactions. Studies show: strong social ties reduce mortality risk by 50%, comparable to quitting smoking. Social connection reduces stress, boosts immunity, improves mental health, increases sense of purpose. Combat loneliness actively - it's as harmful as smoking 15 cigarettes daily.",
+    "tags": ["social connections", "relationships", "mental health", "loneliness prevention", "community", "wellness"],
+    "health_goals": ["improve_mental_health", "general_wellness", "longevity", "reduce_stress"]
+  },
+  {
+    "id": "wt_019",
+    "title": "Create a Morning Movement Routine",
+    "content": "Start your day with energy: Upon waking, drink water, then spend 5-10 minutes on gentle movement: stretching (major muscle groups - hold each 15-30 seconds), yoga sun salutations (2-3 rounds), light calisthenics (10 bodyweight squats, 10 push-ups, 30-second plank), or short walk. Focus on waking body gently, not intense workout. Benefits: increased blood flow and oxygen, improved flexibility, activated metabolism, enhanced mood and energy, better focus, reduced morning stiffness, sets active tone for day. Consistency matters more than intensity. Even 5 minutes daily creates positive momentum. Do before checking phone for mindful start.",
+    "tags": ["morning routine", "exercise", "stretching", "energy", "movement", "flexibility"],
+    "health_goals": ["energy_boost", "general_wellness", "flexibility", "improve_mood"]
+  },
+  {
+    "id": "wt_020",
+    "title": "Practice Intermittent Fasting (16:8 Method)",
+    "content": "Consider time-restricted eating: Fast for 16 hours (including sleep), eat within 8-hour window (e.g., noon-8pm or 10am-6pm), stay hydrated during fasting (water, black coffee, tea), eat nutrient-dense foods during eating window, maintain consistent schedule. Start gradually if new: begin with 12:12, progress to 14:10, then 16:8. Benefits: improved insulin sensitivity, enhanced fat burning, cellular repair (autophagy), reduced inflammation, mental clarity, simplified eating schedule. Not for everyone: avoid if pregnant, breastfeeding, history of eating disorders, certain medical conditions. Consult healthcare provider first. Listen to your body. Quality of food during eating window remains crucial.",
+    "tags": ["intermittent fasting", "weight management", "eating schedule", "metabolism", "nutrition strategy"],
+    "health_goals": ["weight_management", "metabolic_health", "general_wellness", "fat_loss"]
+  },
+  {
+    "id": "wt_021",
+    "title": "Reduce Added Sugar Intake",
+    "content": "Cut hidden sugars for better health: Read labels (look for various names: high fructose corn syrup, cane sugar, agave, honey, maltose, dextrose), limit to <25g daily for women, <36g for men, avoid sugar-sweetened beverages (largest source), choose plain yogurt and add fruit, reduce packaged/processed foods, cook more at home, use spices for flavor instead of sugar, gradually reduce amount in coffee/tea, choose fruit for sweetness (with fiber slows absorption), be cautious of 'healthy' sweeteners (still sugar). Benefits: weight loss, reduced diabetes risk, better dental health, stable energy levels, reduced inflammation, improved heart health, clearer skin. Sugar is addictive - cravings decrease significantly after 2 weeks of reduction.",
+    "tags": ["sugar reduction", "healthy eating", "nutrition", "weight management", "diabetes prevention"],
+    "health_goals": ["weight_management", "general_wellness", "energy_stability", "prevent_health_issues"]
+  },
+  {
+    "id": "wt_022",
+    "title": "Improve Posture Throughout Day",
+    "content": "Protect spine and reduce pain: When sitting - feet flat on floor, knees at 90 degrees, back against chair, shoulders relaxed, screen at eye level, take breaks every 30 minutes. When standing - weight evenly distributed, slight knee bend, engage core, shoulders back and down, chin parallel to ground. When using phone - bring device to eye level (not head down). Strengthen posture muscles: planks, rows, face pulls, bridge exercise. Stretch tight areas: chest, hip flexors, neck. Set hourly posture reminders. Benefits: reduced back/neck pain, improved breathing, better digestion, increased energy, enhanced confidence, prevention of long-term damage. Poor posture contributes to headaches, fatigue, and joint problems.",
+    "tags": ["posture", "back health", "ergonomics", "pain prevention", "spine health", "workplace wellness"],
+    "health_goals": ["pain_reduction", "general_wellness", "prevent_health_issues", "work_wellness"]
+  },
+  {
+    "id": "wt_023",
+    "title": "Practice Box Breathing for Anxiety",
+    "content": "Use Navy SEAL technique for instant calm: Visualize square, each side represents 4 counts. Inhale through nose for 4 counts (tracing first side), hold breath for 4 counts (second side), exhale through mouth for 4 counts (third side), hold empty for 4 counts (fourth side). Repeat 4-5 cycles (5 minutes). Use anytime, anywhere. Especially effective for: anxiety attacks, before important events, during conflict, insomnia, managing anger, high-stress situations. Science: equal breathing activates parasympathetic nervous system, lowers cortisol, reduces heart rate, improves focus, increases oxygen. Practice daily to make automatic stress response. No equipment needed. Completely free, always available tool.",
+    "tags": ["breathing technique", "anxiety relief", "stress management", "mindfulness", "calm", "mental health"],
+    "health_goals": ["anxiety_management", "reduce_stress", "improve_mental_health", "improve_sleep"]
+  },
+  {
+    "id": "wt_024",
+    "title": "Increase Daily Fiber Intake",
+    "content": "Reach 25-30g fiber daily for optimal health: Start day with high-fiber breakfast (oatmeal with berries and nuts, whole grain toast with avocado), include vegetables at lunch and dinner (aim for 2-3 servings per meal), snack on fruits, raw vegetables, nuts, choose whole grains over refined (brown rice vs white, whole wheat vs white bread), add legumes to meals (beans, lentils, chickpeas), include seeds (chia, flax, pumpkin). Increase gradually (add 5g weekly) and drink plenty of water to avoid digestive discomfort. Benefits: improved digestion and regularity, weight management (increases satiety), reduced cholesterol, stable blood sugar, lowered disease risk (heart disease, diabetes, colorectal cancer), healthy gut bacteria. Most Americans get only 15g daily - doubling intake provides significant health benefits.",
+    "tags": ["fiber", "digestion", "nutrition", "gut health", "weight management", "healthy eating"],
+    "health_goals": ["digestive_health", "weight_management", "heart_health", "general_wellness"]
+  },
+  {
+    "id": "wt_025",
+    "title": "Implement a Bedtime Technology Curfew",
+    "content": "Protect sleep quality from blue light: Stop all screens 60-90 minutes before bed (TV, phone, tablet, computer), use blue light filtering glasses if must use devices in evening, enable night mode on devices after sunset, charge phone outside bedroom (use traditional alarm clock), replace scrolling with calming activities (reading physical books, gentle stretching, meditation, journaling, listening to music). Blue light suppresses melatonin production, delaying sleep onset and reducing sleep quality. Mental stimulation from content also impairs wind-down. Studies show: device use before bed reduces sleep duration by 1+ hour, impairs next-day focus. Create phone charging station away from bedroom. Benefits beyond sleep: reduced anxiety, better relationships, improved presence.",
+    "tags": ["sleep hygiene", "technology", "blue light", "bedtime routine", "digital wellness"],
+    "health_goals": ["improve_sleep", "reduce_stress", "general_wellness", "improve_mental_health"]
+  },
+  {
+    "id": "wt_026",
+    "title": "Stay Active Throughout the Day",
+    "content": "Break up sedentary time with movement: Stand or walk every 30 minutes (even 2 minutes helps), take stairs instead of elevator, park farther away, walk during phone calls, do desk exercises (seated leg raises, shoulder rolls, desk push-ups), walk to colleague's desk instead of emailing, stand during meetings when possible, use standing desk or desk converter, set hourly movement reminders, walk during lunch break. Accumulate 10,000 steps daily through these micro-movements. Studies show: breaking up sitting every 30 minutes reduces cardiovascular risk by 30%, improves glucose metabolism, reduces back pain. Continuous sitting for >6 hours daily increases mortality risk even with regular exercise. Movement beats exercise session alone.",
+    "tags": ["active lifestyle", "movement", "workplace wellness", "physical activity", "sitting less"],
+    "health_goals": ["general_wellness", "heart_health", "weight_management", "energy_boost"]
+  },
+  {
+    "id": "wt_027",
+    "title": "Practice Self-Compassion",
+    "content": "Treat yourself with kindness: When facing difficulty or failure, talk to yourself as you would a good friend (not with harsh criticism), recognize that imperfection and struggle are part of shared human experience (you're not alone), practice mindfulness rather than over-identification with negative emotions (acknowledge feelings without being consumed). Self-compassion exercise: place hand on heart, take deep breath, repeat phrases like 'This is a moment of suffering,' 'Suffering is part of life,' 'May I be kind to myself.' Research shows self-compassion is more effective than self-esteem for motivation and resilience. Benefits: reduced anxiety and depression, improved emotional resilience, better ability to learn from mistakes, enhanced motivation, healthier relationships. Self-compassion isn't self-indulgence - it's treating yourself as worthy of care.",
+    "tags": ["self-compassion", "mental health", "self-care", "emotional wellness", "mindfulness", "kindness"],
+    "health_goals": ["improve_mental_health", "reduce_stress", "resilience", "general_wellness"]
+  },
+  {
+    "id": "wt_028",
+    "title": "Build Immunity Through Lifestyle",
+    "content": "Strengthen immune defenses naturally: Prioritize sleep (7-9 hours nightly - sleep deprivation reduces immune cells), eat immune-supporting foods (citrus fruits, red bell peppers, broccoli, garlic, ginger, spinach, yogurt, almonds, turmeric), exercise regularly (moderate intensity boosts immunity; excessive reduces it), manage stress (chronic stress suppresses immune function), stay hydrated (helps produce lymph carrying white blood cells), limit alcohol (impairs immune cells), don't smoke, maintain healthy weight, practice good hygiene (handwashing, not touching face), get sunshine for vitamin D, maintain social connections. Consider supplements if deficient: vitamin C, vitamin D, zinc, elderberry. Get annual flu shot. Benefits: fewer and shorter illnesses, faster recovery, better disease protection.",
+    "tags": ["immune system", "immunity", "disease prevention", "health maintenance", "wellness"],
+    "health_goals": ["immune_support", "prevent_health_issues", "general_wellness"]
+  },
+  {
+    "id": "wt_029",
+    "title": "Cultivate a Growth Mindset",
+    "content": "Embrace challenges and learning: View challenges as opportunities to grow (not threats to avoid), understand abilities can be developed through dedication and hard work (not fixed), see effort as path to mastery (not sign of inadequacy), learn from criticism (not take it personally), find inspiration in others' success (not feel threatened). Transform your self-talk: Replace 'I can't do this' with 'I can't do this yet,' 'I'm not good at this' with 'I'm learning this,' 'This is too hard' with 'This will take time and effort.' Benefits: increased resilience, better stress management, improved problem-solving, enhanced creativity, greater achievement, more enjoyment of challenges. Growth mindset leads to embracing lifelong learning. Practice self-reflection, celebrate effort over outcome, reframe setbacks as learning opportunities.",
+    "tags": ["growth mindset", "mental wellness", "resilience", "self-improvement", "positive thinking"],
+    "health_goals": ["improve_mental_health", "resilience", "general_wellness", "personal_growth"]
+  },
+  {
+    "id": "wt_030",
+    "title": "Optimize Vitamin D Levels",
+    "content": "Ensure adequate 'sunshine vitamin': Get 10-30 minutes midday sun exposure several times weekly (varies by skin tone and latitude), expose arms and legs without sunscreen initially (for vitamin D production), apply sunscreen after 10-30 minutes for cancer protection. Food sources: fatty fish (salmon, mackerel, sardines), egg yolks, fortified milk/orange juice, mushrooms exposed to UV light. Consider supplement: 1000-2000 IU daily (especially if limited sun exposure, dark skin, winter months, older age). Get levels tested: optimal range 30-50 ng/mL. Benefits: stronger bones, enhanced immune function, reduced depression, lower disease risk (heart disease, certain cancers, autoimmune conditions), improved muscle function. Deficiency extremely common (40% of Americans) - simple to correct with significant health impact.",
+    "tags": ["vitamin D", "sunlight", "bone health", "immune support", "nutrition", "supplements"],
+    "health_goals": ["bone_health", "immune_support", "improve_mental_health", "general_wellness"]
   }
 ]
