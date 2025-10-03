@@ -385,15 +385,13 @@ def render_chat_interface(models: dict):
             st.write(f"**Confidence:** {result['confidence']:.2%}")
             if result['entities'].get('symptoms'):
                 st.write(f"**Symptoms Found:** {', '.join(result['entities']['symptoms'])}")
-        
-        st.experimental_rerun()
-    
-    # Show emergency flag if present
-    if result['entities'].get('emergency'):
-        st.error("⚠️ EMERGENCY SITUATION DETECTED")
-    
-    if result['entities'].get('crisis'):
-        st.error("🆘 CRISIS SITUATION DETECTED")
+            
+            # Show emergency/crisis flags
+            if result['entities'].get('emergency'):
+                st.error("⚠️ EMERGENCY SITUATION DETECTED")
+            
+            if result['entities'].get('crisis'):
+                st.error("🆘 CRISIS SITUATION DETECTED")
     
     # Show emergency flag if present
     if result['entities'].get('emergency'):
