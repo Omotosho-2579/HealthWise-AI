@@ -393,6 +393,13 @@ def render_chat_interface(models: dict):
     
     if result['entities'].get('crisis'):
         st.error("🆘 CRISIS SITUATION DETECTED")
+    
+    # Show emergency flag if present
+    if result['entities'].get('emergency'):
+        st.error("⚠️ EMERGENCY SITUATION DETECTED")
+    
+    if result['entities'].get('crisis'):
+        st.error("🆘 CRISIS SITUATION DETECTED")
         st.experimental_rerun()
     
     # Quick action buttons
