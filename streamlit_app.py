@@ -379,13 +379,20 @@ def render_chat_interface(models: dict):
             'content': result['response']
         })
         
-        # Show intent and confidence in expander
         with st.expander("🔍 Analysis Details"):
-            st.write(f"**Detected Intent:** {result['intent']}")
-            st.write(f"**Confidence:** {result['confidence']:.2%}")
-            if result['entities']['symptoms']:
-                st.write(f"**Symptoms Found:** {', '.join(result['entities']['symptoms'])}")
-        
+    st.write(f"**Detected Intent:** {result['intent']}")
+    st.write(f"**Confidence:** {result['confidence']:.2%}")
+    
+    # Check if entities dict has symptoms key before accessing
+    if 'symptoms' in result['entities'] and result['entities']['symptoms']:
+        st.write(f"**Symptoms Found:** {', '.join(result['entities']['symptoms'])}")
+    
+    # Show emergency flag if present
+    if result['entities'].get('emergency'):
+        st.error("⚠️ EMERGENCY SITUATION DETECTED")
+    
+    if result['entities'].get('crisis'):
+        st.error("🆘 CRISIS SITUATION DETECTED")
         st.experimental_rerun()
     
     # Quick action buttons
