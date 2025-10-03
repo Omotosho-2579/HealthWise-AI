@@ -1,66 +1,282 @@
 [
   {
     "id": "kg_001",
-    "topic": "Headache",
-    "content": "Headaches can be caused by tension, dehydration, eye strain, or underlying conditions. Rest, hydration, and over-the-counter pain relievers may help. Seek medical attention for severe or persistent headaches.",
-    "keywords": [
-      "headache",
-      "pain",
-      "head",
-      "migraine",
-      "tension"
-    ],
+    "topic": "Headache - Tension Type",
+    "content": "Tension headaches are the most common type, characterized by a dull, aching pain and tightness across the forehead or back of the head and neck. Causes include stress, poor posture, eye strain, dehydration, and lack of sleep. Relief methods: rest in a quiet environment, apply heat or cold packs, massage temples and neck, stay hydrated, take over-the-counter pain relievers (ibuprofen, acetaminophen), practice relaxation techniques, and improve posture. Seek medical attention if headaches are severe, frequent (more than 15 days per month), or accompanied by vision changes, confusion, or neck stiffness.",
+    "keywords": ["headache", "head pain", "tension headache", "tight head", "head pressure", "band around head", "temple pain"],
     "category": "symptom"
   },
   {
     "id": "kg_002",
-    "topic": "Metformin",
-    "content": "Metformin is a medication used to treat type 2 diabetes. It helps control blood sugar levels by improving insulin sensitivity. Common side effects include nausea and digestive issues.",
-    "keywords": [
-      "metformin",
-      "diabetes",
-      "blood sugar",
-      "medication"
-    ],
-    "category": "medication"
+    "topic": "Headache - Migraine",
+    "content": "Migraines are intense, throbbing headaches often on one side of the head, lasting 4-72 hours. Symptoms may include nausea, vomiting, sensitivity to light and sound, and visual disturbances (aura). Triggers include stress, certain foods (aged cheese, chocolate, alcohol), hormonal changes, sleep disturbances, and weather changes. Management: rest in a dark, quiet room, apply cold compress to forehead, stay hydrated, take prescribed migraine medications early, identify and avoid triggers, maintain regular sleep schedule. See a neurologist if migraines are frequent or debilitating.",
+    "keywords": ["migraine", "severe headache", "throbbing headache", "one-sided headache", "nausea with headache", "light sensitivity", "aura"],
+    "category": "symptom"
   },
   {
     "id": "kg_003",
-    "topic": "Sleep Hygiene",
-    "content": "Good sleep hygiene includes maintaining a consistent sleep schedule, creating a comfortable sleep environment, avoiding screens before bed, and limiting caffeine intake in the afternoon.",
-    "keywords": [
-      "sleep",
-      "insomnia",
-      "rest",
-      "bedtime",
-      "hygiene"
-    ],
+    "topic": "Heart-Healthy Diet",
+    "content": "A heart-healthy diet reduces cardiovascular disease risk. Key foods include: fatty fish (salmon, mackerel, sardines) rich in omega-3s - eat twice weekly; leafy greens (spinach, kale, collards) high in vitamins and antioxidants; whole grains (oats, quinoa, brown rice, whole wheat) for fiber; berries (blueberries, strawberries) for antioxidants; avocados and nuts (walnuts, almonds) for healthy fats; legumes (beans, lentils) for protein and fiber; olive oil as primary cooking fat; tomatoes for lycopene. Limit: sodium (under 2,300mg daily), saturated fats, trans fats, added sugars, and processed meats. Cook at home, read labels, and practice portion control.",
+    "keywords": ["heart health", "cardiovascular diet", "heart healthy foods", "cholesterol lowering foods", "heart disease prevention", "foods for heart", "cardiac diet"],
     "category": "wellness"
   },
   {
     "id": "kg_004",
-    "topic": "Anxiety Management",
-    "content": "Managing anxiety involves deep breathing exercises, regular physical activity, mindfulness practices, and sometimes professional therapy. It's important to identify triggers and develop coping strategies.",
-    "keywords": [
-      "anxiety",
-      "stress",
-      "mental health",
-      "worry",
-      "panic"
-    ],
-    "category": "mental_health"
+    "topic": "Metformin - Type 2 Diabetes",
+    "content": "Metformin (brand names: Glucophage, Fortamet) is the first-line medication for type 2 diabetes. It works by decreasing glucose production in the liver, improving insulin sensitivity, and enhancing glucose uptake by muscles. Typical dose: 500-2000mg daily, taken with meals. Common side effects: nausea, diarrhea, stomach upset, metallic taste (usually improve within 2 weeks). Serious but rare: lactic acidosis (seek immediate care if experiencing muscle pain, weakness, difficulty breathing). Take with food to minimize stomach issues. Do not stop without consulting your doctor. Avoid excessive alcohol. Monitor blood sugar regularly. Inform doctors before any surgery or medical procedures requiring contrast dye.",
+    "keywords": ["metformin", "glucophage", "diabetes medication", "blood sugar medicine", "type 2 diabetes drug", "diabetic medication"],
+    "category": "medication"
   },
   {
     "id": "kg_005",
-    "topic": "Fever",
-    "content": "A fever is a temporary increase in body temperature, often due to infection. Rest, fluids, and fever-reducing medications can help. Seek medical care if fever exceeds 103\u00b0F or persists for more than 3 days.",
-    "keywords": [
-      "fever",
-      "temperature",
-      "infection",
-      "hot",
-      "chills"
-    ],
+    "topic": "Sleep Hygiene - Quality Sleep",
+    "content": "Quality sleep hygiene promotes restorative rest. Essential practices: maintain consistent sleep-wake schedule (same time daily, even weekends); create optimal environment (temperature 65-68°F, completely dark, quiet or white noise, comfortable mattress); establish 30-60 minute bedtime routine (dim lights, relaxing activities like reading, gentle stretching, warm bath); avoid screens 1-2 hours before bed (blue light suppresses melatonin); limit caffeine after 2 PM, avoid heavy meals 3 hours before bed; exercise regularly but not within 3 hours of bedtime; manage stress through meditation or journaling; use bed only for sleep and intimacy. If can't sleep after 20 minutes, leave bed and do calming activity until drowsy. Aim for 7-9 hours nightly.",
+    "keywords": ["sleep", "insomnia", "better sleep", "sleep quality", "can't sleep", "improve sleep", "sleeping problems", "sleep hygiene"],
+    "category": "wellness"
+  },
+  {
+    "id": "kg_006",
+    "topic": "Stress Management Techniques",
+    "content": "Effective stress management combines multiple approaches. Immediate relief: deep breathing (4-7-8 technique: inhale 4 counts, hold 7, exhale 8); progressive muscle relaxation (tense and release each muscle group); grounding exercises (5-4-3-2-1: identify 5 things you see, 4 you touch, 3 you hear, 2 you smell, 1 you taste). Long-term strategies: regular physical activity (30 minutes daily), adequate sleep (7-9 hours), healthy diet, time management and prioritization, setting boundaries, social connections, hobbies and leisure activities, mindfulness meditation (10-20 minutes daily), journaling, limiting caffeine and alcohol. Professional help: consider therapy (CBT, mindfulness-based stress reduction) if stress is chronic or overwhelming. Recognize stress signs: irritability, muscle tension, headaches, fatigue, difficulty concentrating.",
+    "keywords": ["stress", "stress relief", "reduce stress", "stressed out", "tension", "overwhelmed", "stress management", "cope with stress"],
+    "category": "mental_health"
+  },
+  {
+    "id": "kg_007",
+    "topic": "Anxiety - Understanding and Management",
+    "content": "Anxiety is excessive worry about everyday situations, causing physical and emotional symptoms. Symptoms include: restlessness, rapid heartbeat, sweating, trembling, difficulty concentrating, sleep disturbances, muscle tension, fatigue. Management strategies: Cognitive Behavioral Therapy (CBT) - most effective; breathing exercises (box breathing: inhale 4, hold 4, exhale 4, hold 4); regular exercise (30 minutes, 5 times weekly); limit caffeine, alcohol, and nicotine; adequate sleep; mindfulness and meditation; challenge negative thoughts; gradual exposure to feared situations; maintain social connections. Grounding techniques: 5-4-3-2-1 method, holding ice cubes, focusing on textures. Medications (if prescribed): SSRIs, SNRIs, benzodiazepines (short-term only). Seek professional help if anxiety interferes with daily functioning. Emergency: if experiencing panic attacks with chest pain, call doctor to rule out cardiac issues.",
+    "keywords": ["anxiety", "anxious", "panic", "worry", "nervous", "panic attack", "anxiety disorder", "feeling anxious", "nervousness"],
+    "category": "mental_health"
+  },
+  {
+    "id": "kg_008",
+    "topic": "Depression - Recognition and Support",
+    "content": "Depression is more than sadness - it's a medical condition requiring treatment. Symptoms (lasting 2+ weeks): persistent sadness or emptiness, loss of interest in activities, changes in appetite or weight, sleep disturbances (insomnia or oversleeping), fatigue, difficulty concentrating, feelings of worthlessness or guilt, thoughts of death or suicide. Treatment options: psychotherapy (CBT, interpersonal therapy), antidepressant medications (SSRIs, SNRIs - 4-6 weeks to take effect), combination therapy (most effective). Self-care: maintain routine, regular exercise (as effective as medication for mild depression), healthy diet, adequate sleep, social connection, sunlight exposure, avoid alcohol and drugs, set small achievable goals. Support: talk to trusted friends/family, join support groups. Crisis resources: National Suicide Prevention Lifeline (988), Crisis Text Line (text HOME to 741741). Seek immediate help if having suicidal thoughts.",
+    "keywords": ["depression", "depressed", "sad", "sadness", "hopeless", "suicidal thoughts", "no motivation", "can't enjoy anything", "empty feeling"],
+    "category": "mental_health"
+  },
+  {
+    "id": "kg_009",
+    "topic": "Healthy Eating - Balanced Nutrition",
+    "content": "Balanced nutrition provides all essential nutrients. Build meals around: Vegetables and fruits (50% of plate) - variety of colors, 5-9 servings daily; Whole grains (25% of plate) - brown rice, quinoa, oats, whole wheat bread; Lean proteins (25% of plate) - fish, poultry, beans, legumes, tofu, eggs; Healthy fats - olive oil, avocados, nuts, seeds; Low-fat dairy or alternatives. Principles: eat variety, practice portion control, limit processed foods, reduce added sugars (under 25g for women, 36g for men daily), limit sodium (under 2,300mg), stay hydrated (8-10 glasses water), eat mindfully (no screens, chew slowly), plan meals ahead, cook at home. Special considerations: increase fiber (25-30g daily), include probiotic foods (yogurt, kefir, fermented foods), eat colorful produce for diverse nutrients. Avoid: trans fats, excessive red meat, sugar-sweetened beverages.",
+    "keywords": ["healthy eating", "nutrition", "balanced diet", "what to eat", "healthy food", "meal planning", "eating well", "good nutrition"],
+    "category": "wellness"
+  },
+  {
+    "id": "kg_010",
+    "topic": "Exercise - Physical Activity Guidelines",
+    "content": "Regular physical activity is crucial for health. Adults need: 150 minutes moderate aerobic activity (brisk walking, swimming, cycling) or 75 minutes vigorous activity (running, HIIT, sports) weekly, spread throughout the week; plus muscle-strengthening activities (weights, resistance bands, bodyweight exercises) 2+ days weekly, targeting all major muscle groups; flexibility exercises (stretching, yoga) and balance training (especially for older adults). Benefits: cardiovascular health, weight management, stronger bones and muscles, better mental health, improved sleep, reduced chronic disease risk, increased energy, better cognitive function. Getting started: begin slowly if sedentary, choose enjoyable activities, gradually increase intensity and duration, aim for consistency over perfection, find workout buddy, track progress, mix different activities. Safety: warm up 5-10 minutes, cool down and stretch, stay hydrated, listen to your body, consult doctor before starting if you have health conditions or are over 40 and sedentary.",
+    "keywords": ["exercise", "workout", "physical activity", "fitness", "gym", "training", "active lifestyle", "stay active", "movement"],
+    "category": "wellness"
+  },
+  {
+    "id": "kg_011",
+    "topic": "Hydration - Water and Fluid Intake",
+    "content": "Proper hydration is essential for all bodily functions. General guideline: 8-10 glasses (64-80 ounces) water daily, though needs vary by: body size, activity level, climate, health conditions, and diet. Signs of adequate hydration: light yellow urine, urinating every 2-4 hours, no persistent thirst. Dehydration signs: dark urine, dry mouth, fatigue, dizziness, headache, rapid heartbeat, decreased urination, confusion. Benefits: regulates body temperature, lubricates joints, protects tissues, helps eliminate waste, improves cognitive function, maintains skin health, aids digestion, prevents kidney stones. Tips: drink water with each meal, carry reusable bottle, drink before feeling thirsty, increase during exercise (add 12 ounces per 30 minutes of activity), in hot weather, or when ill, eat water-rich foods (watermelon, cucumbers, oranges), limit caffeinated beverages (can be dehydrating), monitor urine color. Special populations: athletes need more, elderly may have decreased thirst sensation.",
+    "keywords": ["hydration", "water", "drink water", "dehydration", "thirsty", "water intake", "stay hydrated", "fluid intake"],
+    "category": "wellness"
+  },
+  {
+    "id": "kg_012",
+    "topic": "Fever - Causes and Management",
+    "content": "Fever is body temperature ≥100.4°F (38°C), usually indicating infection. Normal: 97-99°F (36.1-37.2°C); Low-grade fever: 100.4-102°F; High fever: 103°F+. Common causes: viral infections (cold, flu, COVID-19), bacterial infections (strep throat, UTI, pneumonia), immunizations, inflammatory conditions. Management: rest adequately, drink plenty of fluids (water, clear broths, electrolyte drinks), take fever reducers (acetaminophen or ibuprofen - follow dosing guidelines), dress lightly, use lukewarm bath or cool compress (not ice - can cause shivering), monitor temperature every few hours. When to seek medical care: fever ≥103°F, lasts >3 days, accompanied by severe headache, stiff neck, difficulty breathing, chest pain, severe abdominal pain, confusion, persistent vomiting, rash, severe pain anywhere. For infants <3 months with any fever, seek immediate care. Never give aspirin to children (Reye's syndrome risk).",
+    "keywords": ["fever", "high temperature", "feverish", "hot", "chills", "temperature", "running a fever", "feel hot"],
     "category": "symptom"
+  },
+  {
+    "id": "kg_013",
+    "topic": "Chest Pain - When to Worry",
+    "content": "Chest pain has many causes, some serious. SEEK IMMEDIATE EMERGENCY CARE (call 911) if experiencing: crushing or pressure-like chest pain, pain radiating to jaw/neck/arms/back, shortness of breath, sweating, nausea, dizziness, sense of doom (possible heart attack). Other serious signs: sudden sharp pain with difficulty breathing (possible pulmonary embolism), tearing sensation radiating to back (possible aortic dissection). Less urgent causes: heartburn/acid reflux (burning sensation after eating, improves with antacids), muscle strain (tender to touch, worse with movement), costochondritis (chest wall inflammation), anxiety (often with hyperventilation, palpitations). Never ignore chest pain - better to be evaluated and have it be minor than miss something serious. Risk factors for heart disease: family history, high blood pressure, high cholesterol, diabetes, smoking, obesity, sedentary lifestyle, age (men >45, women >55). When in doubt, seek immediate medical evaluation.",
+    "keywords": ["chest pain", "heart pain", "chest pressure", "tight chest", "chest discomfort", "pain in chest", "chest hurts"],
+    "category": "symptom"
+  },
+  {
+    "id": "kg_014",
+    "topic": "Back Pain - Lower Back",
+    "content": "Lower back pain affects 80% of people at some point. Causes: muscle strain (lifting, sudden movement), poor posture, prolonged sitting, herniated disc, arthritis, spinal stenosis. Most back pain is mechanical (non-serious) and improves with conservative treatment. Management: stay active (bed rest beyond 1-2 days delays recovery), apply heat or ice (ice first 48 hours for acute injury, then heat), over-the-counter pain relievers (NSAIDs like ibuprofen), gentle stretching and strengthening exercises, maintain good posture, use proper lifting techniques (lift with legs, not back), maintain healthy weight. Prevention: regular exercise (especially core strengthening), ergonomic workspace, proper sleeping position (side with pillow between knees or back with pillow under knees), good posture. Red flags requiring immediate medical attention: loss of bowel/bladder control, numbness in groin/inner thighs, weakness in legs, severe pain unrelieved by rest, fever with back pain, pain after significant trauma, history of cancer.",
+    "keywords": ["back pain", "lower back pain", "backache", "back hurts", "spine pain", "lumbar pain", "sciatica"],
+    "category": "symptom"
+  },
+  {
+    "id": "kg_015",
+    "topic": "Stomach Pain - Abdominal Discomfort",
+    "content": "Abdominal pain has numerous causes, from mild to serious. Common causes: indigestion, gas, constipation, gastroenteritis (stomach flu), acid reflux, menstrual cramps, food intolerances. Management for mild cases: rest, clear fluids (water, broth, electrolyte drinks), avoid solid foods until feeling better, gradually resume bland diet (BRAT: bananas, rice, applesauce, toast), avoid irritants (caffeine, alcohol, spicy foods), apply heating pad, over-the-counter remedies (antacids for heartburn, simethicone for gas, laxatives for constipation). SEEK IMMEDIATE CARE if experiencing: severe pain, pain with fever >101°F, bloody or black stools, persistent vomiting (especially if bloody), severe tenderness when touching abdomen, abdominal pain with chest pain, signs of dehydration, yellowing of skin/eyes, pain during pregnancy. Appendicitis signs: pain starting near navel moving to lower right abdomen, worsening pain, fever, nausea. Persistent or recurrent pain requires medical evaluation.",
+    "keywords": ["stomach pain", "abdominal pain", "stomach ache", "belly pain", "stomach hurts", "tummy ache", "digestive pain"],
+    "category": "symptom"
+  },
+  {
+    "id": "kg_016",
+    "topic": "High Blood Pressure - Hypertension Management",
+    "content": "Hypertension (high blood pressure) is ≥130/80 mmHg. Often called 'silent killer' - usually no symptoms until complications occur. Lifestyle modifications (can lower BP 5-20 mmHg): DASH diet (rich in fruits, vegetables, low-fat dairy, whole grains), limit sodium (<2,300mg, ideally <1,500mg daily), maintain healthy weight (every 2 lbs lost can lower BP 1 mmHg), regular exercise (150 minutes weekly), limit alcohol (≤2 drinks/day for men, ≤1 for women), quit smoking, manage stress, adequate sleep (7-9 hours). Foods to emphasize: leafy greens, berries, beets, oats, bananas (potassium-rich), garlic, fatty fish, dark chocolate (moderate amounts). Monitor at home: check BP same time daily, keep log, share with doctor. Medications (if prescribed): diuretics, ACE inhibitors, ARBs, calcium channel blockers, beta-blockers - take as directed, don't stop without consulting doctor. Complications of uncontrolled hypertension: heart attack, stroke, kidney disease, vision loss. Regular check-ups essential.",
+    "keywords": ["high blood pressure", "hypertension", "blood pressure", "BP", "elevated blood pressure", "lower blood pressure"],
+    "category": "condition"
+  },
+  {
+    "id": "kg_017",
+    "topic": "Diabetes - Type 2 Management",
+    "content": "Type 2 diabetes occurs when body becomes resistant to insulin or doesn't produce enough. Diagnosis: fasting glucose ≥126 mg/dL or A1C ≥6.5%. Symptoms: increased thirst and urination, fatigue, blurred vision, slow-healing wounds, frequent infections, tingling in hands/feet. Management pillars: healthy eating (control carbohydrate intake, choose complex carbs over simple sugars, include fiber, lean proteins, healthy fats), regular physical activity (150 minutes weekly - helps cells use insulin better), weight management (even 5-7% weight loss improves control), blood sugar monitoring (frequency per doctor's recommendation), medications as prescribed (metformin first-line, may need additional), regular medical check-ups. Diet tips: eat consistent meals, control portions, limit sugary drinks and sweets, read food labels, choose whole grains, include non-starchy vegetables. Complications of poor control: cardiovascular disease, nerve damage, kidney disease, eye damage, foot problems. Target goals vary by individual - discuss with healthcare team.",
+    "keywords": ["diabetes", "blood sugar", "glucose", "diabetic", "high blood sugar", "type 2 diabetes", "insulin resistance"],
+    "category": "condition"
+  },
+  {
+    "id": "kg_018",
+    "topic": "Asthma - Management and Control",
+    "content": "Asthma is chronic airway inflammation causing breathing difficulty. Symptoms: wheezing, shortness of breath, chest tightness, coughing (especially nighttime/early morning). Triggers: allergens (pollen, dust mites, pet dander, mold), irritants (smoke, strong odors, air pollution), exercise, cold air, respiratory infections, stress, certain medications (aspirin, beta-blockers). Management: controller medications (daily inhaled corticosteroids to prevent symptoms), rescue inhalers (quick-relief bronchodilators for acute symptoms - albuterol), avoid triggers, asthma action plan with doctor, peak flow monitoring. Severe attack warning signs: breathing very hard, can't speak in full sentences, lips/fingernails turning blue, rescue inhaler not helping - seek emergency care immediately. Prevention: identify and avoid triggers, take controller medications as prescribed even when feeling well, get flu and pneumonia vaccines, maintain healthy weight, exercise regularly (with pre-treatment if exercise-induced). Well-controlled asthma allows normal activities. Regular follow-ups essential for medication adjustments.",
+    "keywords": ["asthma", "wheezing", "breathing problems", "shortness of breath", "asthma attack", "inhaler", "difficulty breathing"],
+    "category": "condition"
+  },
+  {
+    "id": "kg_019",
+    "topic": "Weight Loss - Healthy and Sustainable",
+    "content": "Sustainable weight loss: 1-2 pounds per week through calorie deficit (burn more than consume). Healthy approach: balanced nutrition (not extreme diets), regular physical activity, behavior modification, adequate sleep, stress management. Dietary strategies: calculate calorie needs (use BMR calculator), create 500-750 calorie daily deficit, eat whole unprocessed foods, increase protein (helps maintain muscle, increases satiety), include fiber (25-30g daily), control portions (use smaller plates, measure servings), plan meals ahead, keep food journal, stay hydrated, allow occasional treats (80/20 rule). Exercise: combine cardio (burns calories) and strength training (builds muscle, increases metabolism) - aim for 250-300 minutes weekly for weight loss. Behavioral: identify emotional eating triggers, practice mindful eating, get adequate sleep (7-9 hours - inadequate sleep increases hunger hormones), manage stress, find support (friends, family, groups), celebrate non-scale victories. Avoid: crash diets, extreme calorie restriction (<1200 for women, <1500 for men), eliminating food groups, diet pills, unrealistic expectations. Medical supervision recommended if obesity or health conditions present.",
+    "keywords": ["weight loss", "lose weight", "diet", "losing weight", "fat loss", "obesity", "overweight", "shed pounds"],
+    "category": "wellness"
+  },
+  {
+    "id": "kg_020",
+    "topic": "Common Cold - Management",
+    "content": "Common cold is viral upper respiratory infection. Symptoms: runny/stuffy nose, sneezing, sore throat, cough, mild headache, low-grade fever (in children), fatigue. Duration: 7-10 days. No cure - treatment focuses on symptom relief: rest adequately, drink plenty of fluids (water, warm tea with honey, clear broths), gargle salt water for sore throat (1/4 tsp salt in 8oz warm water), use humidifier or breathe steam, saline nasal drops or rinse, over-the-counter remedies (acetaminophen/ibuprofen for pain/fever, decongestants for stuffiness - use cautiously, cough suppressants if disrupting sleep), lozenges for throat, vitamin C and zinc (may slightly reduce duration if started early). Prevention: wash hands frequently, avoid touching face, avoid close contact with sick individuals, maintain healthy lifestyle (adequate sleep, exercise, nutrition). When to see doctor: symptoms lasting >10 days, high fever (>101.3°F), severe headache or sinus pain, difficulty breathing, worsening symptoms. Antibiotics don't help colds (viral, not bacterial).",
+    "keywords": ["cold", "common cold", "runny nose", "stuffy nose", "congestion", "sneezing", "sore throat", "cough"],
+    "category": "symptom"
+  },
+  {
+    "id": "kg_021",
+    "topic": "Influenza - Flu Prevention and Treatment",
+    "content": "Influenza is contagious respiratory illness. Symptoms: sudden onset high fever (100-104°F), severe body aches, fatigue, headache, dry cough, sore throat, chills. Differs from cold: more severe, sudden onset, higher fever. Prevention: annual flu vaccine (best protection), wash hands frequently, avoid touching face, stay away from sick individuals, disinfect surfaces. Treatment: antivirals (Tamiflu, Relenza) most effective if started within 48 hours of symptoms; rest and fluids, fever reducers, pain relievers, cough suppressants if needed. Most recover in 1-2 weeks. Complications risk groups: elderly, young children, pregnant women, chronic conditions (asthma, diabetes, heart disease), weakened immune systems. Seek immediate care if: difficulty breathing, chest pain, persistent vomiting, confusion, severe weakness, fever returning after improvement. Prevention of spread: stay home when sick, cover coughs/sneezes, dispose of tissues properly.",
+    "keywords": ["flu", "influenza", "fever", "body aches", "flu symptoms", "flu shot", "flu vaccine"],
+    "category": "condition"
+  },
+  {
+    "id": "kg_022",
+    "topic": "Cholesterol - Management",
+    "content": "Cholesterol is waxy substance in blood. Types: LDL (bad - builds up in arteries), HDL (good - removes cholesterol), triglycerides. Healthy levels: Total <200 mg/dL, LDL <100 mg/dL, HDL >40 mg/dL (men) or >50 mg/dL (women), Triglycerides <150 mg/dL. Lifestyle modifications: diet changes (limit saturated fats, eliminate trans fats, increase soluble fiber from oats, beans, apples, omega-3 fatty fish), exercise regularly (30 minutes daily raises HDL), lose excess weight (every 10 lbs lost can lower LDL 5-8%), quit smoking (improves HDL within weeks), limit alcohol. Foods to increase: oats, barley, beans, eggplant, nuts (almonds, walnuts), fatty fish, olive oil, foods with plant sterols. Foods to limit: red meat, full-fat dairy, fried foods, baked goods, processed foods. Medications if needed: statins (most common), bile acid sequestrants, cholesterol absorption inhibitors, PCSK9 inhibitors. Regular monitoring: check levels every 4-6 years if normal, more frequently if elevated or on medication.",
+    "keywords": ["cholesterol", "high cholesterol", "LDL", "HDL", "triglycerides", "lower cholesterol", "cholesterol levels"],
+    "category": "condition"
+  },
+  {
+    "id": "kg_023",
+    "topic": "Joint Pain - Arthritis",
+    "content": "Joint pain common causes: osteoarthritis (wear and tear), rheumatoid arthritis (autoimmune), gout (uric acid crystals), injury. Osteoarthritis: most common, typically affects hands, knees, hips, spine; symptoms worsen with activity. Rheumatoid arthritis: affects joints symmetrically, morning stiffness >30 minutes, swelling, systemic symptoms. Management: maintain healthy weight (reduces joint stress), exercise regularly (swimming, cycling, walking - strengthens supporting muscles, improves flexibility), hot/cold therapy (heat for stiffness, ice for acute inflammation), over-the-counter pain relievers (acetaminophen, NSAIDs), topical treatments (capsaicin, menthol creams), assistive devices (braces, canes), physical therapy. Prevention: maintain healthy weight, exercise regularly, avoid joint injuries, proper posture and body mechanics. Medications: for osteoarthritis - NSAIDs, topical treatments, injections (corticosteroids, hyaluronic acid); for rheumatoid - DMARDs, biologics. Surgery options if severe: joint replacement, arthroscopy. Consult rheumatologist for inflammatory arthritis.",
+    "keywords": ["joint pain", "arthritis", "knee pain", "hip pain", "stiff joints", "swollen joints", "osteoarthritis", "rheumatoid arthritis"],
+    "category": "symptom"
+  },
+  {
+    "id": "kg_024",
+    "topic": "Skin Care - Healthy Skin",
+    "content": "Healthy skin care routine maintains skin barrier and prevents aging. Basic routine: cleanse (twice daily with gentle cleanser matching skin type), tone (optional - balances pH), moisturize (all skin types need hydration - choose based on type: oil-free for oily, rich cream for dry), sunscreen (SPF 30+ daily, even cloudy days - most important anti-aging step). Skin types: oily (shine, large pores, acne-prone), dry (flaky, tight feeling), combination (oily T-zone, dry elsewhere), sensitive (reacts easily, redness), normal (balanced). Additional care: exfoliate 1-2 times weekly (removes dead cells), use serums targeting concerns (vitamin C for brightness, retinol for aging, hyaluronic acid for hydration), eye cream for delicate area. Lifestyle factors: stay hydrated, eat antioxidant-rich diet, adequate sleep, manage stress, don't smoke, limit alcohol. Sun protection: wear protective clothing, seek shade 10am-4pm, reapply sunscreen every 2 hours. See dermatologist for: changing moles, persistent acne, concerning skin changes, personalized advice.",
+    "keywords": ["skin care", "skincare", "healthy skin", "skin routine", "moisturizer", "sunscreen", "skin health"],
+    "category": "wellness"
+  },
+  {
+    "id": "kg_025",
+    "topic": "Mental Wellness - Daily Practices",
+    "content": "Mental wellness involves emotional, psychological, and social well-being. Daily practices: mindfulness meditation (10-20 minutes), gratitude journaling (3 things daily), physical activity (releases endorphins), social connection (meaningful interactions), adequate sleep (7-9 hours), healthy nutrition (gut-brain connection), limit screen time (especially social media), engage in hobbies, spend time in nature, practice self-compassion, set boundaries, maintain routine. Stress management: identify stressors, problem-solve when possible, accept what you can't control, relaxation techniques (deep breathing, progressive muscle relaxation, yoga), time management, delegate tasks, say no when needed. Building resilience: maintain perspective, learn from difficulties, develop problem-solving skills, maintain positive relationships, take care of physical health. Warning signs needing professional help: persistent sadness or anxiety, dramatic mood changes, withdrawal from activities, substance abuse, thoughts of self-harm, inability to cope with daily activities. Resources: therapy, support groups, employee assistance programs, crisis hotlines.",
+    "keywords": ["mental wellness", "mental health", "emotional health", "wellbeing", "mental wellbeing", "psychological health"],
+    "category": "mental_health"
+  },
+  {
+    "id": "kg_026",
+    "topic": "Pregnancy - Healthy Pregnancy",
+    "content": "Healthy pregnancy practices ensure maternal and fetal well-being. Prenatal care: schedule first appointment at 8 weeks, regular visits (monthly until 28 weeks, bi-weekly until 36 weeks, weekly until delivery), take prenatal vitamins (especially folic acid 400-800 mcg), avoid alcohol, smoking, drugs, certain medications. Nutrition: eat balanced diet, increase calories by 300 daily in 2nd and 3rd trimesters, focus on protein, calcium, iron, stay hydrated, avoid raw meats, unpasteurized dairy, high-mercury fish, deli meats, raw eggs. Exercise: 30 minutes moderate activity most days (walking, swimming, prenatal yoga) unless contraindicated. Warning signs requiring immediate attention: vaginal bleeding, severe abdominal pain, severe headache with vision changes, decreased fetal movement, leaking fluid, contractions before 37 weeks, severe swelling. Common discomforts and relief: nausea (eat small frequent meals, ginger, vitamin B6), fatigue (rest when needed), heartburn (small meals, avoid triggers, elevate head when sleeping), back pain (good posture, prenatal massage, support belt).",
+    "keywords": ["pregnancy", "pregnant", "prenatal care", "expecting", "maternity", "pregnancy health", "prenatal"],
+    "category": "condition"
+  },
+  {
+    "id": "kg_027",
+    "topic": "Blood Pressure - Lisinopril",
+    "content": "Lisinopril is an ACE inhibitor used to treat high blood pressure and heart failure. It works by relaxing blood vessels, making it easier for heart to pump blood. Typical dose: 10-40mg once daily. Take at same time daily, with or without food. Common side effects: dry cough (10-15% of patients - may need to switch to ARB), dizziness (especially when standing - rise slowly), fatigue, headache. Serious but rare: angioedema (facial/throat swelling - seek immediate care), hyperkalemia (high potassium - avoid salt substitutes, limit high-potassium foods). Do not stop suddenly without doctor approval. Avoid NSAIDs (can reduce effectiveness). Monitor: blood pressure regularly, periodic blood tests for kidney function and potassium. Avoid during pregnancy (causes birth defects). Notify doctor if persistent cough, swelling, dizziness, or signs of infection. Lifestyle still important: low-sodium diet, regular exercise, maintain healthy weight, limit alcohol.",
+    "keywords": ["lisinopril", "ACE inhibitor", "blood pressure medication", "BP medicine", "hypertension drug"],
+    "category": "medication"
+  },
+  {
+    "id": "kg_028",
+    "topic": "Cholesterol - Atorvastatin (Lipitor)",
+    "content": "Atorvastatin (Lipitor) is a statin medication that lowers cholesterol by blocking enzyme needed to produce cholesterol in liver. Used to lower LDL cholesterol and triglycerides, raise HDL cholesterol, prevent cardiovascular events. Typical dose: 10-80mg once daily, usually taken at bedtime. Can take with or without food. Common side effects: muscle aches (report severe pain immediately), headache, nausea, diarrhea. Serious but rare: rhabdomyolysis (severe muscle breakdown - symptoms: severe muscle pain, weakness, dark urine - seek immediate care), liver damage (periodic liver function tests needed). Avoid grapefruit and grapefruit juice (increases drug levels). Continue healthy lifestyle: low-fat diet, regular exercise, weight management. Do not stop without consulting doctor. Notify doctor if: unexplained muscle pain/weakness, dark urine, yellowing of skin/eyes, unusual fatigue. Pregnancy category X - avoid if pregnant or planning pregnancy. Regular monitoring: lipid panel every 4-12 weeks initially, then every 3-12 months.",
+    "keywords": ["atorvastatin", "lipitor", "statin", "cholesterol medication", "cholesterol drug", "statin drug"],
+    "category": "medication"
+  },
+  {
+    "id": "kg_029",
+    "topic": "Acid Reflux - Omeprazole",
+    "content": "Omeprazole (Prilosec) is proton pump inhibitor (PPI) that reduces stomach acid production. Used for GERD, ulcers, erosive esophagitis, Zollinger-Ellison syndrome. Typical dose: 20-40mg once daily, 30-60 minutes before first meal of the day. Take on empty stomach for best absorption. Swallow capsule whole (don't chew). Common side effects: headache, nausea, diarrhea, stomach pain, gas. Long-term use concerns: increased fracture risk (ensure adequate calcium/vitamin D), vitamin B12 deficiency (may need supplementation), low magnesium (periodic monitoring if long-term use), slightly increased infection risk. Should be taken for shortest effective duration. Lifestyle modifications still important: avoid trigger foods (spicy, fatty, acidic foods, chocolate, caffeine), eat smaller meals, don't lie down within 3 hours of eating, elevate head of bed, maintain healthy weight, quit smoking. If symptoms persist on medication, see doctor. Don't take more than 14 days without medical supervision. Can interact with some medications (clopidogrel, warfarin) - inform all providers.",
+    "keywords": ["omeprazole", "prilosec", "acid reflux", "heartburn medication", "GERD medicine", "PPI"],
+    "category": "medication"
+  },
+  {
+    "id": "kg_030",
+    "topic": "Allergies - Seasonal Allergies",
+    "content": "Seasonal allergies (hay fever/allergic rhinitis) occur when immune system overreacts to outdoor allergens. Common triggers: tree pollen (spring), grass pollen (late spring/summer), ragweed pollen (fall), mold spores. Symptoms: sneezing, runny/stuffy nose, itchy/watery eyes, itchy throat, post-nasal drip, fatigue. Management: minimize exposure (check pollen counts, stay indoors when high, keep windows closed, shower after being outside, change clothes), medications (antihistamines - cetirizine, loratadine, fexofenadine; nasal corticosteroid sprays - fluticasone, most effective; decongestants - short-term only; eye drops for itchy eyes), saline nasal rinses, air purifiers with HEPA filters. Start medications before season begins for best results. Immunotherapy (allergy shots or sublingual tablets) for severe cases - provides long-term relief. See allergist for: severe symptoms, medication side effects, unclear triggers, consideration of immunotherapy. Prevention: identify specific triggers through testing, plan outdoor activities when pollen counts lower (after rain, evening).",
+    "keywords": ["allergies", "seasonal allergies", "hay fever", "pollen allergy", "allergic rhinitis", "allergy symptoms"],
+    "category": "condition"
+  },
+  {
+    "id": "kg_031",
+    "topic": "Urinary Tract Infection - UTI",
+    "content": "UTI is infection in any part of urinary system (bladder most common). More common in women. Symptoms: strong, persistent urge to urinate, burning sensation when urinating, passing frequent small amounts of urine, cloudy/strong-smelling urine, pelvic pain (women), blood in urine. Causes: bacteria entering urethra (E. coli most common). Risk factors: female anatomy, sexual activity, certain birth control, menopause, urinary tract abnormalities, catheter use, suppressed immune system. Treatment: antibiotics (typically 3-7 day course - complete full course even if feeling better), increased fluid intake, pain relievers for discomfort. Home remedies: drink plenty of water, urinate frequently (don't hold it), cranberry products may help prevent recurrence, apply heating pad to back or abdomen, avoid bladder irritants (caffeine, alcohol, spicy foods). Prevention: wipe front to back, urinate after sexual activity, stay hydrated, avoid irritating feminine products, empty bladder regularly. Seek care if: symptoms persist >24 hours, fever >101°F, back pain, nausea/vomiting, blood in urine, recurrent UTIs. Untreated UTIs can lead to kidney infection.",
+    "keywords": ["UTI", "urinary tract infection", "bladder infection", "painful urination", "burning urination", "frequent urination"],
+    "category": "condition"
+  },
+  {
+    "id": "kg_032",
+    "topic": "Thyroid - Hypothyroidism",
+    "content": "Hypothyroidism occurs when thyroid gland doesn't produce enough thyroid hormone. Symptoms develop slowly: fatigue, weight gain, cold sensitivity, constipation, dry skin, thinning hair, muscle weakness, depression, memory problems, slow heart rate, puffy face. Most common cause: Hashimoto's thyroiditis (autoimmune). Diagnosis: blood tests (TSH, T4, T3). Treatment: levothyroxine (synthetic thyroid hormone) - take on empty stomach, 30-60 minutes before breakfast, same time daily. Dose adjustments based on regular TSH monitoring (every 6-8 weeks until stable, then annually). Important: many medications and supplements interfere with absorption (calcium, iron, antacids, soy - take 4 hours apart). Untreated hypothyroidism complications: heart disease, infertility, mental health issues, myxedema coma (rare but life-threatening). Most patients need lifelong treatment. With proper treatment, can live normal life. Monitor: symptoms, weight, energy levels, report changes to doctor. Regular follow-ups essential for dose optimization.",
+    "keywords": ["hypothyroidism", "thyroid", "underactive thyroid", "low thyroid", "thyroid problems", "levothyroxine"],
+    "category": "condition"
+  },
+  {
+    "id": "kg_033",
+    "topic": "Vitamin D - Importance and Sources",
+    "content": "Vitamin D is essential for bone health, immune function, mood regulation. Functions: helps absorb calcium, supports bone mineralization, modulates immune response, influences cell growth. Deficiency symptoms: fatigue, bone/back pain, frequent infections, depression, impaired wound healing, muscle pain. Recommended intake: 600-800 IU daily (adults), up to 4000 IU safe upper limit. Sources: sunlight (10-30 minutes midday sun several times weekly - varies by skin tone, latitude, season), fatty fish (salmon, mackerel, sardines), fortified foods (milk, orange juice, cereals), egg yolks, supplements (D3 more effective than D2). Risk factors for deficiency: limited sun exposure, dark skin, older age, obesity, malabsorption disorders, kidney/liver disease. Testing: 25-hydroxyvitamin D blood test - optimal level 30-50 ng/mL. Supplementation: if deficient, may need high-dose initially (50,000 IU weekly), then maintenance dose. Take with fat-containing meal for better absorption. Benefits of adequate levels: stronger bones, reduced fracture risk, better immune function, improved mood. Excessive amounts can cause toxicity (nausea, weakness, kidney problems).",
+    "keywords": ["vitamin D", "vitamin deficiency", "sunshine vitamin", "vitamin D deficiency", "bone health", "calcium absorption"],
+    "category": "wellness"
+  },
+  {
+    "id": "kg_034",
+    "topic": "Smoking Cessation - Quitting Smoking",
+    "content": "Quitting smoking is most important step for health. Health benefits: within 20 minutes - heart rate and blood pressure drop; 12 hours - carbon monoxide levels normalize; 2 weeks-3 months - circulation and lung function improve; 1 year - heart disease risk reduced by half; 5 years - stroke risk same as non-smoker; 10 years - lung cancer risk reduced by half. Quit strategies: set quit date, tell others for support, remove triggers (ashtrays, lighters), identify smoking triggers and plan alternatives, stay busy, exercise, deep breathing when cravings hit. Nicotine replacement: patches, gum, lozenges (can double quit rates). Medications: varenicline (Chantix), bupropion (Zyban/Wellbutrin) - prescription options. Behavioral support: counseling, support groups, quitlines (1-800-QUIT-NOW), mobile apps. Managing withdrawal: irritability, anxiety, difficulty concentrating, increased appetite (usually peak 2-3 days, improve within 2-4 weeks) - drink water, healthy snacks, exercise, relaxation techniques. Don't give up if relapse - most successful quitters try several times. Every quit attempt increases success chances.",
+    "keywords": ["quit smoking", "stop smoking", "smoking cessation", "nicotine addiction", "quit cigarettes", "stop tobacco"],
+    "category": "wellness"
+  },
+  {
+    "id": "kg_035",
+    "topic": "Eye Health - Vision Care",
+    "content": "Eye health maintenance prevents vision problems. Regular exams: ages 18-60 every 2 years (if no risk factors), 61+ annually, more frequent if diabetic, family history of eye disease, high blood pressure. Common conditions: refractive errors (nearsightedness, farsightedness, astigmatism) - correctable with glasses/contacts; presbyopia (difficulty focusing up close after 40) - reading glasses needed; cataracts (clouding of lens, usually age-related); glaucoma (optic nerve damage from high eye pressure - leading cause of blindness); macular degeneration (central vision loss, age-related); diabetic retinopathy. Protective measures: UV protection (sunglasses with UV400 or 100% UVA/UVB blocking), safety glasses for hazardous activities, screen breaks (20-20-20 rule: every 20 minutes, look 20 feet away for 20 seconds), adequate lighting, don't smoke. Nutrition: omega-3 fatty acids, vitamins C and E, zinc, lutein, zeaxanthin (found in leafy greens, fish, eggs, citrus, nuts). Seek immediate care for: sudden vision loss, flashes of light, floaters, eye pain, redness with vision changes.",
+    "keywords": ["eye health", "vision", "eyesight", "eye care", "vision problems", "eye exam", "vision care"],
+    "category": "wellness"
+  },
+  {
+    "id": "kg_036",
+    "topic": "Dental Health - Oral Hygiene",
+    "content": "Good oral hygiene prevents tooth decay and gum disease. Daily care: brush twice daily (2 minutes each time) with fluoride toothpaste, floss once daily (removes plaque between teeth where brush can't reach), consider mouthwash (antimicrobial for gum health, fluoride for cavity prevention). Proper brushing technique: soft-bristled brush, 45-degree angle to gums, gentle circular motions, brush all surfaces including tongue. Professional care: dental cleanings and exams every 6 months, X-rays as recommended. Diet: limit sugary and acidic foods/drinks, drink water (especially fluoridated), eat calcium-rich foods, crunchy fruits and vegetables (natural cleaners), avoid tobacco. Common problems: cavities (tooth decay from bacteria and acid), gingivitis (gum inflammation - reversible with good hygiene), periodontitis (advanced gum disease - can lead to tooth loss), tooth sensitivity. Warning signs: bleeding gums, persistent bad breath, loose teeth, painful chewing, swelling. Prevent problems: good hygiene, regular dental visits, fluoride use, dental sealants for children, mouthguards for sports. Oral health affects overall health - linked to heart disease, diabetes, pregnancy complications.",
+    "keywords": ["dental health", "oral health", "teeth", "gums", "tooth care", "dental hygiene", "oral hygiene", "brushing teeth"],
+    "category": "wellness"
+  },
+  {
+    "id": "kg_037",
+    "topic": "Bone Health - Osteoporosis Prevention",
+    "content": "Strong bones require lifelong attention. Peak bone mass reached by age 30, then gradual loss begins. Osteoporosis: bones become weak and brittle, increased fracture risk. Risk factors: aging, female (especially post-menopausal), small frame, family history, low calcium/vitamin D intake, sedentary lifestyle, smoking, excessive alcohol, certain medications (corticosteroids, some seizure medications). Prevention: adequate calcium (1000mg ages 19-50, 1200mg 51+) - dairy products, leafy greens, fortified foods, sardines; vitamin D (800-1000 IU daily) - sunlight, fatty fish, fortified foods, supplements; weight-bearing exercise (walking, dancing, tennis, weight training) - builds and maintains bone; strength training; avoid smoking and excessive alcohol. Screening: bone density test (DEXA scan) for women 65+, men 70+, younger if risk factors. Treatment if diagnosed: medications (bisphosphonates, denosumab, others), fall prevention (remove tripping hazards, good lighting, assistive devices), continue calcium and vitamin D, safe exercise program.",
+    "keywords": ["bone health", "osteoporosis", "bone density", "strong bones", "bone loss", "fracture prevention", "calcium"],
+    "category": "wellness"
+  },
+  {
+    "id": "kg_038",
+    "topic": "Digestive Health - IBS",
+    "content": "Irritable Bowel Syndrome (IBS) is chronic functional disorder affecting large intestine. Symptoms: abdominal pain/cramping, bloating, gas, diarrhea and/or constipation, mucus in stool. Types: IBS-D (diarrhea predominant), IBS-C (constipation predominant), IBS-M (mixed). Triggers vary individually: certain foods (FODMAPs, dairy, gluten, fatty foods), stress, hormonal changes, medications. Diagnosis: based on symptoms (Rome criteria), rule out other conditions. Management: identify triggers (keep food/symptom diary), dietary modifications (low-FODMAP diet often helpful - work with dietitian), stress management (therapy, relaxation techniques, exercise), adequate fiber (for IBS-C - increase gradually), probiotics (some strains beneficial), medications (antispasmodics for cramping, laxatives for constipation, antidiarrheals for diarrhea, certain antidepressants). Lifestyle: regular meals, adequate hydration, regular exercise, sufficient sleep, stress reduction. IBS is chronic but manageable - doesn't damage intestines or increase cancer risk. Work with gastroenterologist for personalized plan.",
+    "keywords": ["IBS", "irritable bowel syndrome", "digestive problems", "stomach issues", "bowel problems", "diarrhea", "constipation"],
+    "category": "condition"
+  },
+  {
+    "id": "kg_039",
+    "topic": "Sleep Disorders - Insomnia",
+    "content": "Insomnia is difficulty falling asleep, staying asleep, or early waking with inability to return to sleep. Types: acute (short-term, often stress-related) or chronic (3+ nights weekly for 3+ months). Causes: stress, anxiety, depression, poor sleep habits, medications, caffeine/alcohol, medical conditions, shift work. Consequences: fatigue, mood changes, difficulty concentrating, increased accident risk, weakened immunity, increased chronic disease risk. Treatment: Cognitive Behavioral Therapy for Insomnia (CBT-I) - first-line treatment, most effective long-term; sleep hygiene (consistent schedule, optimal environment, bedtime routine, limit naps, avoid screens before bed); stimulus control (use bed only for sleep, leave bed if can't sleep after 20 minutes); relaxation techniques (progressive muscle relaxation, meditation, deep breathing). Medications: short-term only (can cause dependence) - prescription sleep aids, over-the-counter antihistamines (not recommended long-term). Avoid: alcohol as sleep aid (disrupts sleep architecture), caffeine after early afternoon, large meals before bed, intense exercise close to bedtime. Address underlying conditions. Consistent implementation of sleep hygiene often resolves insomnia.",
+    "keywords": ["insomnia", "can't sleep", "sleep problems", "trouble sleeping", "sleeplessness", "difficulty sleeping"],
+    "category": "condition"
+  },
+  {
+    "id": "kg_040",
+    "topic": "Heart Health - Prevention",
+    "content": "Cardiovascular disease is leading cause of death but largely preventable. Risk factors: modifiable (smoking, high blood pressure, high cholesterol, diabetes, obesity, physical inactivity, poor diet, excessive alcohol, stress) and non-modifiable (age, male gender, family history, ethnicity). Prevention strategies: don't smoke or quit if smoking, maintain healthy blood pressure (<120/80), manage cholesterol (diet, medication if needed), control blood sugar if diabetic, maintain healthy weight (BMI 18.5-24.9), regular exercise (150 minutes weekly moderate or 75 minutes vigorous), heart-healthy diet (Mediterranean or DASH), limit alcohol (≤2 drinks/day men, ≤1 for women), manage stress, adequate sleep (7-9 hours). Heart-healthy foods: fatty fish, nuts, berries, leafy greens, whole grains, olive oil, avocados, legumes. Avoid: trans fats, excessive salt, added sugars, processed meats. Know your numbers: blood pressure, cholesterol, blood sugar, BMI. Regular check-ups: discuss cardiovascular risk with doctor, may need medications (aspirin, statins, blood pressure medications) based on risk profile. Warning signs of heart attack: chest discomfort, shortness of breath, cold sweat, nausea, lightheadedness - call 911 immediately.",
+    "keywords": ["heart health", "cardiovascular health", "heart disease prevention", "healthy heart", "prevent heart attack", "cardiac health"],
+    "category": "wellness"
   }
 ]
