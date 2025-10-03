@@ -105,22 +105,82 @@ def initialize_session_state():
 def process_chat_query(query: str, models: dict) -> dict:
     """
     Process user chat query through the AI pipeline.
-    
-    Args:
-        query: User's text query
-        models: Dictionary of loaded models
-        
-    Returns:
-        Response dictionary with answer and metadata
     """
-    # Predict intent
+    # EMERGENCY DETECTION - Check for critical symptoms first
+    emergency_keywords = [
+        'chest pain', 'chest pressure', 'crushing chest', 'tight chest',
+        'pain radiating', 'pain down arm', 'pain in jaw',
+        'shortness of breath', 'difficulty breathing', 'can\'t breathe',
+        'sudden severe headache', 'worst headache', 'severe headache',
+        'confusion', 'slurred speech', 'face drooping', 'arm weakness',
+        'severe bleeding', 'bleeding heavily', 'won\'t stop bleeding',
+        'suicidal', 'want to die', 'kill myself', 'end my life',
+        'passed out', 'loss of consciousness', 'can\'t wake up'
+    ]
+    
+    query_lower = query.lower()
+    is_emergency = any(keyword in query_lower for keyword in emergency_keywords)
+    
+    if is_emergency and ('chest' in query_lower or 'heart' in query_lower or 'arm' in query_lower):
+        return {
+            'response': """🚨 **EMERGENCY - CALL 112 IMMEDIATELY** 🚨
+
+The symptoms you're describing (chest pain/pressure with pain radiating to arm) are **warning signs of a possible heart attack**.
+
+**DO NOT WAIT - CALL 112 NOW**
+
+While waiting for emergency services:
+- Stop what you're doing and sit or lie down
+- Chew an aspirin if available (unless allergic)
+- Loosen tight clothing
+- Stay calm and don't drive yourself
+
+**Heart Attack Warning Signs:**
+- Chest pain, pressure, or discomfort
+- Pain radiating to arms, jaw, neck, or back
+- Shortness of breath
+- Cold sweats, nausea, lightheadedness
+
+⚠️ **This is a medical emergency. I'm an AI chatbot and cannot provide emergency care. Call 112 or your local emergency number immediately.**""",
+            'intent': 'emergency_detected',
+            'confidence': 1.0,
+            'entities': {'emergency': True},
+            'sources': []
+        }
+    
+    # Suicidal ideation detection
+    if any(word in query_lower for word in ['suicidal', 'kill myself', 'want to die', 'end my life']):
+        return {
+            'response': """🆘 **CRISIS SUPPORT AVAILABLE** 🆘
+
+If you're having thoughts of suicide, please reach out for help immediately:
+
+**Immediate Help:**
+- Nigeria Red Cross Society: **0803 123 0430, 0809 993 7357**
+- 📱 Emergency Response Africa (ERA): **0 8000 2255 372**
+- 🚨 Emergency Services: **112**
+
+**You are not alone.** These feelings are temporary, and help is available 24/7.
+
+**What to do right now:**
+1. Call one of the numbers above - counselors are ready to listen
+2. Stay with someone or go to a public place
+3. Remove access to means of self-harm
+4. Go to nearest emergency room if in immediate danger
+
+I'm an AI and can't provide crisis counseling, but trained professionals are waiting to help you. Please reach out right now - your life matters.
+
+**International Crisis Lines:** https://www.opencounseling.com/suicide-hotlines""",
+            'intent': 'crisis_detected',
+            'confidence': 1.0,
+            'entities': {'crisis': True},
+            'sources': []
+        }
+    
+    # Normal processing for non-emergency queries
     intent, confidence = models['nlp_processor'].predict_intent(query)
-    
-    # Extract entities
     entities = models['nlp_processor'].extract_entities(query)
-    
-    # Search knowledge graph
-    kg_results = models['kg_retriever'].search(query, top_k=2)
+    kg_results = models['kg_retriever'].search(query, top_k=3)
     
     # Generate response based on intent
     if intent == 'symptom_checker':
@@ -143,7 +203,6 @@ def process_chat_query(query: str, models: dict) -> dict:
         'entities': entities,
         'sources': kg_results
     }
-
 
 def generate_symptom_response(query: str, kg_results: list, entities: dict) -> str:
     """Generate response for symptom checker queries."""
