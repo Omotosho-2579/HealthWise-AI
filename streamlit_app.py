@@ -103,19 +103,16 @@ def initialize_session_state():
 
 
 def process_chat_query(query: str, models: dict) -> dict:
-    """
-    Process user chat query through the AI pipeline.
-    """
-    # EMERGENCY DETECTION - Check for critical symptoms first
+    """Process user chat query through the AI pipeline."""
+    
+    # EMERGENCY DETECTION
     emergency_keywords = [
         'chest pain', 'chest pressure', 'crushing chest', 'tight chest',
         'pain radiating', 'pain down arm', 'pain in jaw',
         'shortness of breath', 'difficulty breathing', 'can\'t breathe',
-        'sudden severe headache', 'worst headache', 'severe headache',
+        'sudden severe headache', 'worst headache',
         'confusion', 'slurred speech', 'face drooping', 'arm weakness',
-        'severe bleeding', 'bleeding heavily', 'won\'t stop bleeding',
-        'suicidal', 'want to die', 'kill myself', 'end my life',
-        'passed out', 'loss of consciousness', 'can\'t wake up'
+        'severe bleeding', 'suicidal', 'want to die', 'kill myself'
     ]
     
     query_lower = query.lower()
@@ -135,52 +132,47 @@ While waiting for emergency services:
 - Loosen tight clothing
 - Stay calm and don't drive yourself
 
-**Heart Attack Warning Signs:**
-- Chest pain, pressure, or discomfort
-- Pain radiating to arms, jaw, neck, or back
-- Shortness of breath
-- Cold sweats, nausea, lightheadedness
-
-⚠️ **This is a medical emergency. I'm an AI chatbot and cannot provide emergency care. Call 112 or your local emergency number immediately.**""",
+⚠️ **This is a medical emergency. Call 112 immediately.**""",
             'intent': 'emergency_detected',
             'confidence': 1.0,
             'entities': {'emergency': True},
             'sources': []
         }
     
-    # Suicidal ideation detection
     if any(word in query_lower for word in ['suicidal', 'kill myself', 'want to die', 'end my life']):
         return {
             'response': """🆘 **CRISIS SUPPORT AVAILABLE** 🆘
 
-If you're having thoughts of suicide, please reach out for help immediately:
-
 **Immediate Help:**
-- Nigeria Red Cross Society: **0803 123 0430, 0809 993 7357**
-- 📱 Emergency Response Africa (ERA): **0 8000 2255 372**
-- 🚨 Emergency Services: **112**
+- Emergency Response Africa (ERA): **0 8000 2255 372**
+- Emergency Services: **112**
 
-**You are not alone.** These feelings are temporary, and help is available 24/7.
-
-**What to do right now:**
-1. Call one of the numbers above - counselors are ready to listen
-2. Stay with someone or go to a public place
-3. Remove access to means of self-harm
-4. Go to nearest emergency room if in immediate danger
-
-I'm an AI and can't provide crisis counseling, but trained professionals are waiting to help you. Please reach out right now - your life matters.
-
-**International Crisis Lines:** https://www.opencounseling.com/suicide-hotlines""",
+Trained professionals are ready to help you right now. Please reach out.""",
             'intent': 'crisis_detected',
             'confidence': 1.0,
             'entities': {'crisis': True},
             'sources': []
         }
     
-    # Normal processing for non-emergency queries
+    # Normal processing
     intent, confidence = models['nlp_processor'].predict_intent(query)
     entities = models['nlp_processor'].extract_entities(query)
-    kg_results = models['kg_retriever'].search(query, top_k=3)
+    kg_results = models['kg_retriever'].search(query, top_k=5)  # Get more results
+    
+    # FILTER results by category based on intent
+    if intent == 'symptom_checker':
+        kg_results = [r for r in kg_results if r.get('category') == 'symptom'][:3]
+    elif intent == 'medication_explainer':
+        kg_results = [r for r in kg_results if r.get('category') == 'medication'][:3]
+    elif intent == 'general_wellness':
+        kg_results = [r for r in kg_results if r.get('category') == 'wellness'][:3]
+    elif intent == 'mental_health':
+        # Accept both mental_health and wellness for mental health queries
+        kg_results = [r for r in kg_results if r.get('category') in ['mental_health', 'wellness']][:3]
+    
+    # If filtering removed all results, use original top 3
+    if not kg_results:
+        kg_results = models['kg_retriever'].search(query, top_k=3)
     
     # Generate response based on intent
     if intent == 'symptom_checker':
@@ -203,7 +195,6 @@ I'm an AI and can't provide crisis counseling, but trained professionals are wai
         'entities': entities,
         'sources': kg_results
     }
-
 def generate_symptom_response(query: str, kg_results: list, entities: dict) -> str:
     """Generate response for symptom checker queries."""
     if kg_results:
@@ -248,9 +239,8 @@ def generate_mental_health_response(kg_results: list) -> str:
         main_result = kg_results[0]
         response = f"**Mental Health Support:**\n\n{main_result['content']}\n\n"
         response += "🧠 **Support Resources:** If you're in crisis or need immediate help, please contact:\n"
-        response += "- National Suicide Prevention Lifeline: 988\n"
-        response += "- Crisis Text Line: Text HOME to 741741\n"
-        response += "- Your local emergency services: 911"
+        response += "- Emergency Response Africa (ERA): 0 8000 2255 372\n"
+        response += "- Your local emergency services: 112"
         return response
     else:
         return "Mental health is incredibly important. While I can provide general guidance, please consider speaking with a mental health professional who can provide personalized support. How can I help you today?"
