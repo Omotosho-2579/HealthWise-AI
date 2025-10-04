@@ -401,19 +401,48 @@ def render_chat_interface(models: dict):
     
     with col1:
         if st.button("Sleep tips 😴"):
-            st.session_state.chat_history.append({'role': 'user', 'content': 'How can I improve my sleep?'})
+            # Add to history
+            st.session_state.chat_history.append({
+                'role': 'user',
+                'content': 'How can I improve my sleep?'
+            })
+            # Process immediately
+            with st.spinner("🤔 Thinking..."):
+                result = process_chat_query('How can I improve my sleep?', models)
+            # Add response
+            st.session_state.chat_history.append({
+                'role': 'assistant',
+                'content': result['response']
+            })
             st.experimental_rerun()
     
     with col2:
         if st.button("Stress relief 🧘"):
-            st.session_state.chat_history.append({'role': 'user', 'content': 'How can I reduce stress?'})
+            st.session_state.chat_history.append({
+                'role': 'user',
+                'content': 'How can I reduce stress?'
+            })
+            with st.spinner("🤔 Thinking..."):
+                result = process_chat_query('How can I reduce stress?', models)
+            st.session_state.chat_history.append({
+                'role': 'assistant',
+                'content': result['response']
+            })
             st.experimental_rerun()
     
     with col3:
         if st.button("Healthy eating 🥗"):
-            st.session_state.chat_history.append({'role': 'user', 'content': 'Tips for healthy eating?'})
+            st.session_state.chat_history.append({
+                'role': 'user',
+                'content': 'Tips for healthy eating?'
+            })
+            with st.spinner("🤔 Thinking..."):
+                result = process_chat_query('Tips for healthy eating?', models)
+            st.session_state.chat_history.append({
+                'role': 'assistant',
+                'content': result['response']
+            })
             st.experimental_rerun()
-
 
 def render_recommendations(models: dict):
     """Render personalized recommendations."""
