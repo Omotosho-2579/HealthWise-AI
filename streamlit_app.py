@@ -393,19 +393,13 @@ def render_chat_interface(models: dict):
             if result['entities'].get('crisis'):
                 st.error("🆘 CRISIS SITUATION DETECTED")
     
-    # Show emergency flag if present
-    if result['entities'].get('emergency'):
-        st.error("⚠️ EMERGENCY SITUATION DETECTED")
+            st.experimental_rerun()
     
-    if result['entities'].get('crisis'):
-        st.error("🆘 CRISIS SITUATION DETECTED")
-        st.experimental_rerun()
+            # Quick action buttons
+            st.markdown("### 💡 Quick Questions")
+            col1, col2, col3 = st.columns(3)
     
-    # Quick action buttons
-    st.markdown("### 💡 Quick Questions")
-    col1, col2, col3 = st.columns(3)
-    
-    with col1:
+     with col1:
         if st.button("Sleep tips 😴"):
             st.session_state.chat_history.append({'role': 'user', 'content': 'How can I improve my sleep?'})
             st.experimental_rerun()
