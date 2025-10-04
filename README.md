@@ -44,3 +44,12 @@ healthwise-ai/
     ├── recommender.py
     └── report_processor.py
 
+
+## 📄 License & Copyright
+
+© 2024 [Your Name]. All Rights Reserved.
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+⚠️ **Important**: This software is provided for educational purposes. Unauthorized copying, modification, or distribution is prohibited without explicit permission.
+
