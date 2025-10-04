@@ -47,7 +47,7 @@ healthwise-ai/
 
 ## 📄 License & Copyright
 
-© 2024 [Your Name]. All Rights Reserved.
+© 2025 Mohammed Abdulrafiu Omotosho. All Rights Reserved.
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
