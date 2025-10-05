@@ -1,9 +1,9 @@
-streamlit==1.28.0
-pandas==2.0.3
-scikit-learn==1.3.0
+streamlit==1.22.0
+pandas
+scikit-learn==1.6.1
 spacy==3.6.1
 pytesseract==0.3.10
-Pillow==10.0.0
-joblib==1.3.2
-numpy==1.24.3
+Pillow
+joblib
+numpy<2
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.6.0/en_core_web_sm-3.6.0-py3-none-any.whl
