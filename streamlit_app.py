@@ -154,7 +154,7 @@ Trained professionals are ready to help you right now. Please reach out.""",
             'sources': []
         }
         if 'stress' in query_lower or 'anxiety' in query_lower or 'anxious' in query_lower:
-            if any(word in query_lower for word in ['reduce', 'manage', 'help', 'cope', 'deal', 'relieve', 'handle']):
+           if any(word in query_lower for word in ['reduce', 'manage', 'help', 'cope', 'deal', 'relieve', 'handle']):
             entities = models['nlp_processor'].extract_entities(query)
             kg_results = models['kg_retriever'].search(query, top_k=5)
             kg_results = [r for r in kg_results if r.get('category') in ['mental_health', 'wellness']][:3]
@@ -171,7 +171,6 @@ Trained professionals are ready to help you right now. Please reach out.""",
                 'entities': entities,
                 'sources': kg_results
             }
-    
     # Normal processing
     intent, confidence = models['nlp_processor'].predict_intent(query)
     entities = models['nlp_processor'].extract_entities(query)
