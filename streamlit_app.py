@@ -153,6 +153,24 @@ Trained professionals are ready to help you right now. Please reach out.""",
             'entities': {'crisis': True},
             'sources': []
         }
+        if 'stress' in query_lower or 'anxiety' in query_lower or 'anxious' in query_lower:
+        if any(word in query_lower for word in ['reduce', 'manage', 'help', 'cope', 'deal', 'relieve', 'handle']):
+            entities = models['nlp_processor'].extract_entities(query)
+            kg_results = models['kg_retriever'].search(query, top_k=5)
+            kg_results = [r for r in kg_results if r.get('category') in ['mental_health', 'wellness']][:3]
+            
+            if not kg_results:
+                kg_results = models['kg_retriever'].search(query, top_k=3)
+            
+            response = generate_mental_health_response(kg_results)
+            
+            return {
+                'response': response,
+                'intent': 'mental_health',
+                'confidence': 0.95,
+                'entities': entities,
+                'sources': kg_results
+            }
     
     # Normal processing
     intent, confidence = models['nlp_processor'].predict_intent(query)
