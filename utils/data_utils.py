@@ -1,28 +1,45 @@
 import json
-import joblib
 import numpy as np
-import spacy
 from typing import Dict, List
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
 
 class KnowledgeGraphRetriever:
     """
     Retrieves relevant information from the medical knowledge graph.
     
-    Uses FAISS for efficient similarity search.
+    Uses TF-IDF for efficient keyword-based matching.
     """
     
     def __init__(self, faiss_index_path, knowledge_graph_path):
-        """Initialize knowledge graph and FAISS index."""
-        self.index = joblib.load(faiss_index_path)
-        
+        """Initialize knowledge graph and create TF-IDF index."""
+        # Load knowledge graph
         with open(knowledge_graph_path, 'r') as f:
             self.knowledge_graph = json.load(f)
         
-        self.nlp = spacy.load("en_core_web_sm")
+        # Create searchable text for each entry (keywords weighted heavily)
+        self.documents = []
+        for entry in self.knowledge_graph:
+            # Repeat keywords 5 times for higher weight
+            keywords_weighted = ' '.join(entry['keywords']) * 5
+            searchable_text = f"{entry['topic']} {keywords_weighted} {entry['content']}"
+            self.documents.append(searchable_text)
+        
+        # Create TF-IDF vectorizer
+        self.vectorizer = TfidfVectorizer(
+            max_features=1000,
+            ngram_range=(1, 2),
+            stop_words='english'
+        )
+        
+        # Fit vectorizer on all documents
+        self.tfidf_matrix = self.vectorizer.fit_transform(self.documents)
+        
+        print(f"✓ TF-IDF index created with {len(self.knowledge_graph)} entries")
     
     def search(self, query: str, top_k: int = 3) -> List[Dict]:
         """
-        Search knowledge graph for relevant information.
+        Search knowledge graph for relevant information using TF-IDF.
         
         Args:
             query: User query
@@ -31,21 +48,22 @@ class KnowledgeGraphRetriever:
         Returns:
             List of relevant knowledge graph entries
         """
-        # Generate query embedding
-        doc = self.nlp(query)
-        query_vector = doc.vector.astype('float32').reshape(1, -1)
+        # Vectorize query
+        query_vec = self.vectorizer.transform([query])
         
-        # Search FAISS index
-        distances, indices = self.index.search(query_vector, top_k)
+        # Calculate cosine similarity
+        similarities = cosine_similarity(query_vec, self.tfidf_matrix)[0]
+        
+        # Get top k indices
+        top_indices = similarities.argsort()[-top_k:][::-1]
         
         # Return matching entries
         results = []
-        for idx in indices[0]:
+        for idx in top_indices:
             if idx < len(self.knowledge_graph):
                 results.append(self.knowledge_graph[idx])
         
         return results
-
 
 def load_wellness_tips() -> List[Dict]:
     """Load wellness tips from JSON file."""
