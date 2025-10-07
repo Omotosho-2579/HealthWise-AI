@@ -208,5 +208,75 @@
     "content": "Ensure adequate 'sunshine vitamin': Get 10-30 minutes midday sun exposure several times weekly (varies by skin tone and latitude), expose arms and legs without sunscreen initially (for vitamin D production), apply sunscreen after 10-30 minutes for cancer protection. Food sources: fatty fish (salmon, mackerel, sardines), egg yolks, fortified milk/orange juice, mushrooms exposed to UV light. Consider supplement: 1000-2000 IU daily (especially if limited sun exposure, dark skin, winter months, older age). Get levels tested: optimal range 30-50 ng/mL. Benefits: stronger bones, enhanced immune function, reduced depression, lower disease risk (heart disease, certain cancers, autoimmune conditions), improved muscle function. Deficiency extremely common (40% of Americans) - simple to correct with significant health impact.",
     "tags": ["vitamin D", "sunlight", "bone health", "immune support", "nutrition", "supplements"],
     "health_goals": ["bone_health", "immune_support", "improve_mental_health", "general_wellness"]
+  },
+  {
+    "id": "wt_031",
+    "title": "Start Your Day with Warm Lemon Water",
+    "content": "Begin each morning by drinking a glass of warm water with fresh lemon juice. This simple ritual kickstarts your metabolism, aids digestion, provides vitamin C for immune support, helps flush toxins, rehydrates your body after sleep, and promotes healthy skin. Squeeze half a lemon into warm (not boiling) water and drink on an empty stomach. Wait 20-30 minutes before eating breakfast for optimal benefits. This practice is especially beneficial in hot African climates where morning hydration is crucial.",
+    "tags": ["hydration", "morning routine", "digestion", "detox", "vitamin C", "metabolism"],
+    "health_goals": ["general_wellness", "digestive_health", "immune_support", "skin_health"]
+  },
+  {
+    "id": "wt_032",
+    "title": "Embrace Traditional African Whole Grains",
+    "content": "Incorporate nutrient-rich African grains into your diet: sorghum high in protein and antioxidants, millet rich in magnesium and phosphorus, teff excellent source of iron and calcium, fonio ancient grain with essential amino acids. These gluten-free grains provide sustained energy, support digestive health, and are culturally appropriate alternatives to imported wheat. Use for porridge, bread, or as rice substitute. Sorghum and millet thrive in African climates making them sustainable choices. Rich in fiber and micronutrients often lacking in refined grains.",
+    "tags": ["nutrition", "African diet", "whole grains", "traditional foods", "gluten-free", "sustainable"],
+    "health_goals": ["healthy_eating", "digestive_health", "energy_boost", "cultural_nutrition"]
+  },
+  {
+    "id": "wt_033",
+    "title": "Practice the 10-Minute Morning Stretch",
+    "content": "Dedicate 10 minutes each morning to gentle stretching: neck rolls release tension, shoulder shrugs and circles, arm reaches overhead, spine twists seated or standing, forward bends touch toes or as far as comfortable, hip circles, calf stretches, ankle rotations. Hold each stretch 15-30 seconds without bouncing. Benefits include improved flexibility, increased blood flow, reduced muscle stiffness, enhanced mood, better posture, and injury prevention. Particularly important if you sit for long periods or do physical labor. Can be done anywhere without equipment.",
+    "tags": ["stretching", "morning routine", "flexibility", "mobility", "pain prevention", "exercise"],
+    "health_goals": ["flexibility", "pain_reduction", "general_wellness", "energy_boost"]
+  },
+  {
+    "id": "wt_034",
+    "title": "Eat More Leafy Greens - African Varieties",
+    "content": "Consume nutrient-dense African leafy vegetables daily: amaranth leaves high in calcium and iron, moringa leaves superfood with vitamins A, C, calcium, sweet potato leaves rich in antioxidants, cassava leaves protein-rich, African nightshade, spider plant, jute mallow. These vegetables combat anemia common in Africa, support immune function, promote bone health, and are affordable and locally available. Eat both raw in salads and cooked in stews. Pair with vitamin C-rich foods like tomatoes or citrus to enhance iron absorption. Traditional vegetables are more nutrient-dense than imported lettuce.",
+    "tags": ["nutrition", "leafy greens", "African vegetables", "iron", "vitamins", "traditional foods"],
+    "health_goals": ["healthy_eating", "immune_support", "bone_health", "anemia_prevention"]
+  },
+  {
+    "id": "wt_035",
+    "title": "Master Deep Belly Breathing",
+    "content": "Practice diaphragmatic breathing for stress relief: sit or lie comfortably, place one hand on chest and one on belly, inhale slowly through nose allowing belly to rise while chest remains still, exhale slowly through mouth, repeat for 5-10 minutes. This activates the parasympathetic nervous system reducing stress hormones, lowers blood pressure and heart rate, improves oxygen delivery, enhances focus and calm. Practice morning and evening, or whenever stressed. Particularly helpful during traffic, before important meetings, or when feeling overwhelmed. Free and accessible anywhere.",
+    "tags": ["breathing", "stress relief", "relaxation", "meditation", "anxiety", "mindfulness"],
+    "health_goals": ["reduce_stress", "anxiety_management", "improve_mental_health", "blood_pressure_control"]
+  },
+  {
+    "id": "wt_036",
+    "title": "Walk for 30 Minutes Daily",
+    "content": "Commit to 30 minutes of brisk walking every day: walk in morning before work, during lunch break, or evening. Benefits include cardiovascular health, weight management, improved mood from endorphin release, stronger bones and muscles, better sleep quality, reduced disease risk. Walk at a pace where you can talk but not sing. Use proper footwear to prevent injuries. If safety concerns, walk with friends or family, in busy areas during daylight, or find indoor spaces like malls. Can be broken into three 10-minute sessions. Walking groups provide social connection and accountability.",
+    "tags": ["walking", "exercise", "cardiovascular", "weight loss", "mood", "physical activity"],
+    "health_goals": ["general_wellness", "heart_health", "weight_management", "improve_mood"]
+  },
+  {
+    "id": "wt_037",
+    "title": "Stay Hydrated in Hot Climate",
+    "content": "Drink at least 8-10 glasses of water daily, more in hot weather or with physical activity: carry a reusable water bottle, drink before feeling thirsty, monitor urine color aiming for light yellow, increase intake during exercise add 12 ounces per 30 minutes, eat water-rich foods watermelon, cucumbers, oranges. In African heat, dehydration happens quickly leading to fatigue, headaches, poor concentration. Safe water is essential - boil, filter, or treat if necessary. Limit sugary drinks and excessive tea or coffee. Proper hydration improves skin, digestion, kidney function, and energy levels.",
+    "tags": ["hydration", "water", "health", "climate", "wellness", "energy"],
+    "health_goals": ["general_wellness", "energy_boost", "skin_health", "kidney_health"]
+  },
+  {
+    "id": "wt_038",
+    "title": "Prepare Sunday Meal Prep",
+    "content": "Dedicate 2-3 hours on Sunday to meal preparation for the week: plan 3-5 meals, shop with list, batch cook proteins grilled chicken, fish, beans, prepare grains brown rice, whole wheat pasta, chop vegetables, portion into containers. Benefits include saving time on busy weekdays, healthier choices when prepared in advance, cost savings from bulk cooking, reduced food waste, less stress about daily meals. Include variety to prevent boredom. Store refrigerated meals for 3-4 days, freeze the rest. Adapt traditional dishes for easy reheating.",
+    "tags": ["meal prep", "planning", "time management", "healthy eating", "cooking", "organization"],
+    "health_goals": ["healthy_eating", "weight_management", "time_efficiency", "general_wellness"]
+  },
+  {
+    "id": "wt_039",
+    "title": "Practice Gratitude Journaling",
+    "content": "Write three things you're grateful for each evening: be specific about why each matters, include how it made you feel, vary entries daily, focus on people and experiences over possessions. Scientific benefits include improved mood and life satisfaction, better sleep quality, reduced depression and anxiety symptoms, enhanced relationships, increased resilience to stress. Keep journal by bedside, spend just 5 minutes. After 30 days, gratitude becomes automatic mindset. Particularly powerful during difficult times. Share gratitude with family to cultivate positive household environment.",
+    "tags": ["gratitude", "mental health", "journaling", "mindfulness", "happiness", "wellbeing"],
+    "health_goals": ["improve_mental_health", "reduce_stress", "improve_sleep", "general_wellness"]
+  },
+  {
+    "id": "wt_040",
+    "title": "Reduce Salt Intake Gradually",
+    "content": "Lower sodium to under 2300mg daily, ideally 1500mg: remove salt shaker from table, taste food before adding salt, use herbs and spices for flavor garlic, ginger, pepper, turmeric, lemon juice, cook from scratch to control sodium, read labels on packaged foods, limit processed foods, reduce stock cubes high in sodium. High salt intake contributes to hypertension very common in Africa. Gradual reduction allows taste buds to adapt over 2-3 weeks. Benefits include lower blood pressure, reduced heart disease and stroke risk, decreased bloating. Use potassium-rich foods like bananas to balance sodium.",
+    "tags": ["sodium", "salt reduction", "blood pressure", "heart health", "hypertension", "diet"],
+    "health_goals": ["blood_pressure_control", "heart_health", "reduce_stroke_risk", "general_wellness"]
   }
 ]
